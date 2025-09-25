@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!--    <template id="homepage_redeem" inherit_id="website.homepage" name="Redeem Digital Wallet Homepage">-->
+<!--         Replace the empty div with comprehensive landing page content -->
+<!--        <xpath expr="//div[@id='wrap']" position="replace">-->
+<!--            <div id="wrap" class="oe_structure">-->
+<!--                -->
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                &lt;!&ndash; HERO SECTION &ndash;&gt;-->
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                <section class="s_cover o_cc o_cc1 pt-8 pb-8" data-name="Hero Section" style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); min-height: 100vh;">-->
+<!--                    <div class="container">-->
+<!--                        <div class="row align-items-center min-vh-100">-->
+<!--                            &lt;!&ndash; Hero Content &ndash;&gt;-->
+<!--                            <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">-->
+<!--                                <div class="pe-lg-4">-->
+<!--                                    &lt;!&ndash; Brand Logo &ndash;&gt;-->
+<!--                                    <div class="mb-4">-->
+<!--                                        <img src="/theme_redeem/static/src/img/redeem-logo.png" alt="Redeem" class="img-fluid" style="height: 48px;" />-->
+<!--                                    </div>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; Main Headline &ndash;&gt;-->
+<!--                                    <h1 class="display-3 fw-bold text-dark mb-4" style="line-height: 1.1;">-->
+<!--                                        The Digital Wallet<br/>-->
+<!--                                        <span class="text-primary">That Delivers Hope</span>-->
+<!--                                    </h1>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; Subheading &ndash;&gt;-->
+<!--                                    <p class="lead text-muted mb-5" style="font-size: 1.25rem; line-height: 1.6;">-->
+<!--                                        Transforming lives through seamless digital fund distribution. -->
+<!--                                        Empowering communities with secure, accessible financial solutions -->
+<!--                                        that bridge the gap between aid and those who need it most.-->
+<!--                                    </p>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; CTA Buttons &ndash;&gt;-->
+<!--                                    <div class="d-flex flex-column flex-sm-row gap-3 mb-5">-->
+<!--                                        <a href="#features" class="btn btn-primary btn-lg px-5 py-3 shadow-lg" style="font-weight: 600;">-->
+<!--                                            Get Started-->
+<!--                                            <i class="fa fa-arrow-right ms-2"></i>-->
+<!--                                        </a>-->
+<!--                                        <a href="#how-it-works" class="btn btn-outline-dark btn-lg px-5 py-3">-->
+<!--                                            Learn More-->
+<!--                                        </a>-->
+<!--                                    </div>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; Trust Indicators &ndash;&gt;-->
+<!--                                    <div class="row text-center text-sm-start">-->
+<!--                                        <div class="col-4">-->
+<!--                                            <h4 class="fw-bold text-primary mb-1">10M+</h4>-->
+<!--                                            <small class="text-muted">Users Served</small>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-4">-->
+<!--                                            <h4 class="fw-bold text-primary mb-1">$2.5B</h4>-->
+<!--                                            <small class="text-muted">Funds Distributed</small>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-4">-->
+<!--                                            <h4 class="fw-bold text-primary mb-1">99.9%</h4>-->
+<!--                                            <small class="text-muted">Uptime</small>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            -->
+<!--                            &lt;!&ndash; Hero Phone Mockups &ndash;&gt;-->
+<!--                            <div class="col-lg-6 col-md-12">-->
+<!--                                <div class="position-relative">-->
+<!--                                    &lt;!&ndash; Phone Mockup Stack &ndash;&gt;-->
+<!--                                    <div class="d-flex justify-content-center align-items-center">-->
+<!--                                        <img src="/theme_redeem/static/src/img/phone-mockup-1.png" alt="Redeem App - Main Interface" -->
+<!--                                             class="img-fluid me-n5 shadow-lg rounded-4" style="max-width: 280px; z-index: 2; position: relative;" />-->
+<!--                                        <img src="/theme_redeem/static/src/img/phone-mockup-2.png" alt="Redeem App - Transaction Screen" -->
+<!--                                             class="img-fluid shadow-lg rounded-4" style="max-width: 280px; z-index: 1; margin-top: 60px;" />-->
+<!--                                        <img src="/theme_redeem/static/src/img/phone-mockup-3.png" alt="Redeem App - Wallet Overview" -->
+<!--                                             class="img-fluid ms-n5 shadow-lg rounded-4" style="max-width: 280px; z-index: 2; position: relative;" />-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                &lt;!&ndash; ECOSYSTEM SECTION &ndash;&gt;-->
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                <section class="s_text_block pt-8 pb-8" data-name="Ecosystem Section" style="background-color: #ffffff;">-->
+<!--                    <div class="container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-8 mx-auto text-center mb-6">-->
+<!--                                <h2 class="display-5 fw-bold text-dark mb-4">-->
+<!--                                    A Seamless Ecosystem for<br/>-->
+<!--                                    <span class="text-primary">Digital Funds Delivery</span>-->
+<!--                                </h2>-->
+<!--                                <p class="lead text-muted">-->
+<!--                                    Our comprehensive platform connects organizations, beneficiaries, and communities -->
+<!--                                    through secure, transparent, and efficient digital financial services designed for humanitarian aid.-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        -->
+<!--                        &lt;!&ndash; Central Phone with Feature Callouts &ndash;&gt;-->
+<!--                        <div class="row align-items-center">-->
+<!--                            <div class="col-lg-12">-->
+<!--                                <div class="position-relative mx-auto" style="max-width: 800px;">-->
+<!--                                    &lt;!&ndash; Central Phone &ndash;&gt;-->
+<!--                                    <div class="text-center">-->
+<!--                                        <img src="/theme_redeem/static/src/img/ecosystem-phone.png" alt="Redeem Ecosystem" -->
+<!--                                             class="img-fluid shadow-lg rounded-4" style="max-width: 400px;" />-->
+<!--                                    </div>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; Feature Callouts positioned around phone &ndash;&gt;-->
+<!--                                    &lt;!&ndash; Top Left &ndash;&gt;-->
+<!--                                    <div class="position-absolute d-none d-lg-block" style="top: 10%; left: 5%;">-->
+<!--                                        <div class="bg-white rounded-4 p-4 shadow-lg border" style="max-width: 200px;">-->
+<!--                                            <div class="d-flex align-items-center mb-2">-->
+<!--                                                <div class="bg-primary rounded-circle p-2 me-3">-->
+<!--                                                    <i class="fa fa-mobile-alt text-white"></i>-->
+<!--                                                </div>-->
+<!--                                                <h6 class="fw-bold mb-0">Dual Mode Application</h6>-->
+<!--                                            </div>-->
+<!--                                            <small class="text-muted">Separate interfaces for recipients and organizations</small>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; Top Right &ndash;&gt;-->
+<!--                                    <div class="position-absolute d-none d-lg-block" style="top: 10%; right: 5%;">-->
+<!--                                        <div class="bg-white rounded-4 p-4 shadow-lg border" style="max-width: 200px;">-->
+<!--                                            <div class="d-flex align-items-center mb-2">-->
+<!--                                                <div class="bg-success rounded-circle p-2 me-3">-->
+<!--                                                    <i class="fa fa-building text-white"></i>-->
+<!--                                                </div>-->
+<!--                                                <h6 class="fw-bold mb-0">Organization Portal</h6>-->
+<!--                                            </div>-->
+<!--                                            <small class="text-muted">Dedicated dashboard for fund management</small>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; Bottom Left &ndash;&gt;-->
+<!--                                    <div class="position-absolute d-none d-lg-block" style="bottom: 10%; left: 5%;">-->
+<!--                                        <div class="bg-white rounded-4 p-4 shadow-lg border" style="max-width: 200px;">-->
+<!--                                            <div class="d-flex align-items-center mb-2">-->
+<!--                                                <div class="bg-info rounded-circle p-2 me-3">-->
+<!--                                                    <i class="fa fa-chart-bar text-white"></i>-->
+<!--                                                </div>-->
+<!--                                                <h6 class="fw-bold mb-0">Advanced Reporting</h6>-->
+<!--                                            </div>-->
+<!--                                            <small class="text-muted">Real-time analytics and insights</small>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; Bottom Right &ndash;&gt;-->
+<!--                                    <div class="position-absolute d-none d-lg-block" style="bottom: 10%; right: 5%;">-->
+<!--                                        <div class="bg-white rounded-4 p-4 shadow-lg border" style="max-width: 200px;">-->
+<!--                                            <div class="d-flex align-items-center mb-2">-->
+<!--                                                <div class="bg-warning rounded-circle p-2 me-3">-->
+<!--                                                    <i class="fa fa-shield-alt text-white"></i>-->
+<!--                                                </div>-->
+<!--                                                <h6 class="fw-bold mb-0">Secure Verification</h6>-->
+<!--                                            </div>-->
+<!--                                            <small class="text-muted">KYC compliance and identity verification</small>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                &lt;!&ndash; FEATURES GRID SECTION &ndash;&gt;-->
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                <section class="s_text_block pt-8 pb-8" data-name="Features Grid" id="features" style="background-color: #f8fafc;">-->
+<!--                    <div class="container">-->
+<!--                        &lt;!&ndash; Section Header &ndash;&gt;-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-8 mx-auto text-center mb-6">-->
+<!--                                <h2 class="display-5 fw-bold text-dark mb-4">-->
+<!--                                    Complete Digital Financial Solutions-->
+<!--                                </h2>-->
+<!--                                <p class="lead text-muted">-->
+<!--                                    Everything organizations and beneficiaries need for secure, transparent fund distribution-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        -->
+<!--                        &lt;!&ndash; Features Grid &ndash;&gt;-->
+<!--                        <div class="row g-5">-->
+<!--                            &lt;!&ndash; Feature 1: Dual Mode Application &ndash;&gt;-->
+<!--                            <div class="col-lg-4 col-md-6">-->
+<!--                                <div class="bg-white rounded-4 p-5 shadow-sm h-100 text-center text-lg-start">-->
+<!--                                    <div class="bg-primary bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">-->
+<!--                                        <i class="fa fa-mobile-alt fa-2x text-primary"></i>-->
+<!--                                    </div>-->
+<!--                                    <h4 class="fw-bold mb-3">Dual Mode Application</h4>-->
+<!--                                    <p class="text-muted mb-0">-->
+<!--                                        Separate optimized interfaces for beneficiaries and organization administrators, -->
+<!--                                        each designed for specific workflows and security requirements.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            -->
+<!--                            &lt;!&ndash; Feature 2: Organization Portal &ndash;&gt;-->
+<!--                            <div class="col-lg-4 col-md-6">-->
+<!--                                <div class="bg-white rounded-4 p-5 shadow-sm h-100 text-center text-lg-start">-->
+<!--                                    <div class="bg-success bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">-->
+<!--                                        <i class="fa fa-building fa-2x text-success"></i>-->
+<!--                                    </div>-->
+<!--                                    <h4 class="fw-bold mb-3">Dedicated Organization Portal</h4>-->
+<!--                                    <p class="text-muted mb-0">-->
+<!--                                        Comprehensive dashboard for organizations to manage distribution programs, -->
+<!--                                        track funds, monitor beneficiaries, and generate compliance reports.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            -->
+<!--                            &lt;!&ndash; Feature 3: Advanced Reporting &ndash;&gt;-->
+<!--                            <div class="col-lg-4 col-md-6">-->
+<!--                                <div class="bg-white rounded-4 p-5 shadow-sm h-100 text-center text-lg-start">-->
+<!--                                    <div class="bg-info bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">-->
+<!--                                        <i class="fa fa-chart-line fa-2x text-info"></i>-->
+<!--                                    </div>-->
+<!--                                    <h4 class="fw-bold mb-3">Advanced Reporting &amp; Analytics</h4>-->
+<!--                                    <p class="text-muted mb-0">-->
+<!--                                        Real-time analytics, custom reports, and data visualization tools -->
+<!--                                        for better program management and impact measurement.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            -->
+<!--                            &lt;!&ndash; Feature 4: Secure Onboarding &ndash;&gt;-->
+<!--                            <div class="col-lg-4 col-md-6">-->
+<!--                                <div class="bg-white rounded-4 p-5 shadow-sm h-100 text-center text-lg-start">-->
+<!--                                    <div class="bg-warning bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">-->
+<!--                                        <i class="fa fa-shield-alt fa-2x text-warning"></i>-->
+<!--                                    </div>-->
+<!--                                    <h4 class="fw-bold mb-3">Secure Onboarding &amp; KYC</h4>-->
+<!--                                    <p class="text-muted mb-0">-->
+<!--                                        Streamlined identity verification process with biometric authentication, -->
+<!--                                        document verification, and compliance with international standards.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            -->
+<!--                            &lt;!&ndash; Feature 5: Automated Fund Management &ndash;&gt;-->
+<!--                            <div class="col-lg-4 col-md-6">-->
+<!--                                <div class="bg-white rounded-4 p-5 shadow-sm h-100 text-center text-lg-start">-->
+<!--                                    <div class="bg-purple bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">-->
+<!--                                        <i class="fa fa-cogs fa-2x" style="color: #8B5CF6;"></i>-->
+<!--                                    </div>-->
+<!--                                    <h4 class="fw-bold mb-3">Automated Fund Management</h4>-->
+<!--                                    <p class="text-muted mb-0">-->
+<!--                                        Smart distribution rules, automated transfers, scheduled payments, -->
+<!--                                        and intelligent fund allocation based on predefined criteria.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            -->
+<!--                            &lt;!&ndash; Feature 6: Closed Loop System &ndash;&gt;-->
+<!--                            <div class="col-lg-4 col-md-6">-->
+<!--                                <div class="bg-white rounded-4 p-5 shadow-sm h-100 text-center text-lg-start">-->
+<!--                                    <div class="bg-danger bg-opacity-10 rounded-circle d-inline-flex align-items-center justify-content-center mb-4" style="width: 80px; height: 80px;">-->
+<!--                                        <i class="fa fa-sync-alt fa-2x text-danger"></i>-->
+<!--                                    </div>-->
+<!--                                    <h4 class="fw-bold mb-3">Closed Loop Financial System</h4>-->
+<!--                                    <p class="text-muted mb-0">-->
+<!--                                        Complete ecosystem with integrated payment processing, -->
+<!--                                        merchant network, and cash-out options for maximum utility.-->
+<!--                                    </p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                &lt;!&ndash; HOW IT WORKS SECTION &ndash;&gt;-->
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                <section class="s_text_block pt-8 pb-8" data-name="How It Works" id="how-it-works" style="background-color: #ffffff;">-->
+<!--                    <div class="container">-->
+<!--                        &lt;!&ndash; Section Header &ndash;&gt;-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-8 mx-auto text-center mb-6">-->
+<!--                                <h2 class="display-5 fw-bold text-dark mb-4">-->
+<!--                                    How It Works-->
+<!--                                </h2>-->
+<!--                                <p class="lead text-muted">-->
+<!--                                    Simple, secure steps to transform aid distribution-->
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        -->
+<!--                        &lt;!&ndash; Process Steps &ndash;&gt;-->
+<!--                        <div class="row align-items-center">-->
+<!--                            &lt;!&ndash; Step Content &ndash;&gt;-->
+<!--                            <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">-->
+<!--                                <div class="pe-lg-4">-->
+<!--                                    &lt;!&ndash; Step 1 &ndash;&gt;-->
+<!--                                    <div class="d-flex align-items-start mb-5">-->
+<!--                                        <div class="bg-primary rounded-circle d-flex align-items-center justify-content-center me-4 flex-shrink-0" style="width: 60px; height: 60px;">-->
+<!--                                            <span class="fw-bold text-white">1</span>-->
+<!--                                        </div>-->
+<!--                                        <div>-->
+<!--                                            <h4 class="fw-bold mb-2">Register &amp; Get Verified</h4>-->
+<!--                                            <p class="text-muted mb-0">-->
+<!--                                                Organizations and beneficiaries complete secure registration with -->
+<!--                                                KYC verification, biometric authentication, and identity confirmation.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; Step 2 &ndash;&gt;-->
+<!--                                    <div class="d-flex align-items-start mb-5">-->
+<!--                                        <div class="bg-success rounded-circle d-flex align-items-center justify-content-center me-4 flex-shrink-0" style="width: 60px; height: 60px;">-->
+<!--                                            <span class="fw-bold text-white">2</span>-->
+<!--                                        </div>-->
+<!--                                        <div>-->
+<!--                                            <h4 class="fw-bold mb-2">Setup Distribution Programs</h4>-->
+<!--                                            <p class="text-muted mb-0">-->
+<!--                                                Organizations configure distribution rules, beneficiary criteria, -->
+<!--                                                fund allocation methods, and automated transfer schedules.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; Step 3 &ndash;&gt;-->
+<!--                                    <div class="d-flex align-items-start mb-5">-->
+<!--                                        <div class="bg-info rounded-circle d-flex align-items-center justify-content-center me-4 flex-shrink-0" style="width: 60px; height: 60px;">-->
+<!--                                            <span class="fw-bold text-white">3</span>-->
+<!--                                        </div>-->
+<!--                                        <div>-->
+<!--                                            <h4 class="fw-bold mb-2">Automated Fund Distribution</h4>-->
+<!--                                            <p class="text-muted mb-0">-->
+<!--                                                Funds are automatically distributed to verified beneficiaries -->
+<!--                                                based on predefined criteria and schedules with real-time tracking.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; Step 4 &ndash;&gt;-->
+<!--                                    <div class="d-flex align-items-start">-->
+<!--                                        <div class="bg-warning rounded-circle d-flex align-items-center justify-content-center me-4 flex-shrink-0" style="width: 60px; height: 60px;">-->
+<!--                                            <span class="fw-bold text-white">4</span>-->
+<!--                                        </div>-->
+<!--                                        <div>-->
+<!--                                            <h4 class="fw-bold mb-2">Monitor &amp; Report Impact</h4>-->
+<!--                                            <p class="text-muted mb-0">-->
+<!--                                                Track fund utilization, measure program impact, generate compliance -->
+<!--                                                reports, and optimize distribution strategies with advanced analytics.-->
+<!--                                            </p>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            -->
+<!--                            &lt;!&ndash; Phone Mockups &ndash;&gt;-->
+<!--                            <div class="col-lg-6 col-md-12">-->
+<!--                                <div class="position-relative">-->
+<!--                                    <div class="row">-->
+<!--                                        <div class="col-6">-->
+<!--                                            <img src="/theme_redeem/static/src/img/how-it-works-phone-1.png" alt="Registration Process" -->
+<!--                                                 class="img-fluid shadow-lg rounded-4 mb-4" />-->
+<!--                                        </div>-->
+<!--                                        <div class="col-6">-->
+<!--                                            <img src="/theme_redeem/static/src/img/how-it-works-phone-2.png" alt="Fund Distribution" -->
+<!--                                                 class="img-fluid shadow-lg rounded-4 mt-5" />-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                &lt;!&ndash; AUTOMATED FUND MANAGEMENT SECTION &ndash;&gt;-->
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                <section class="s_text_block pt-8 pb-8" data-name="Automated Fund Management" style="background-color: #f8fafc;">-->
+<!--                    <div class="container">-->
+<!--                        <div class="row align-items-center">-->
+<!--                            &lt;!&ndash; Content &ndash;&gt;-->
+<!--                            <div class="col-lg-6 col-md-12 mb-5 mb-lg-0">-->
+<!--                                <div class="pe-lg-4">-->
+<!--                                    <h2 class="display-6 fw-bold text-dark mb-4">-->
+<!--                                        Automated Fund Management-->
+<!--                                    </h2>-->
+<!--                                    -->
+<!--                                    &lt;!&ndash; Feature List &ndash;&gt;-->
+<!--                                    <div class="mb-4">-->
+<!--                                        &lt;!&ndash; Feature Item &ndash;&gt;-->
+<!--                                        <div class="d-flex align-items-center mb-3">-->
+<!--                                            <div class="bg-primary rounded-circle p-1 me-3 flex-shrink-0">-->
+<!--                                                <i class="fa fa-check text-white fa-sm"></i>-->
+<!--                                            </div>-->
+<!--                                            <div>-->
+<!--                                                <h6 class="fw-bold mb-1">Empower Beneficiaries with Dignity</h6>-->
+<!--                                                <small class="text-muted">Provide direct access to funds with user-friendly interfaces</small>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        -->
+<!--                                        <div class="d-flex align-items-center mb-3">-->
+<!--                                            <div class="bg-primary rounded-circle p-1 me-3 flex-shrink-0">-->
+<!--                                                <i class="fa fa-check text-white fa-sm"></i>-->
+<!--                                            </div>-->
+<!--                                            <div>-->
+<!--                                                <h6 class="fw-bold mb-1">Boost Local Economies</h6>-->
+<!--                                                <small class="text-muted">Integrate with local merchants and service providers</small>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        -->
+<!--                                        <div class="d-flex align-items-center mb-3">-->
+<!--                                            <div class="bg-primary rounded-circle p-1 me-3 flex-shrink-0">-->
+<!--                                                <i class="fa fa-check text-white fa-sm"></i>-->
+<!--                                            </div>-->
+<!--                                            <div>-->
+<!--                                                <h6 class="fw-bold mb-1">Reduce Administrative Overhead</h6>-->
+<!--                                                <small class="text-muted">Automate processes to reduce operational costs by up to 40%</small>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        -->
+<!--                                        <div class="d-flex align-items-center mb-3">-->
+<!--                                            <div class="bg-primary rounded-circle p-1 me-3 flex-shrink-0">-->
+<!--                                                <i class="fa fa-check text-white fa-sm"></i>-->
+<!--                                            </div>-->
+<!--                                            <div>-->
+<!--                                                <h6 class="fw-bold mb-1">Scalable for Any Operation</h6>-->
+<!--                                                <small class="text-muted">From small NGOs to large international organizations</small>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    -->
+<!--                                    <a href="#contact" class="btn btn-primary btn-lg px-5">-->
+<!--                                        Start Your Program-->
+<!--                                        <i class="fa fa-arrow-right ms-2"></i>-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            -->
+<!--                            &lt;!&ndash; Phone Mockup &ndash;&gt;-->
+<!--                            <div class="col-lg-6 col-md-12">-->
+<!--                                <div class="text-center">-->
+<!--                                    <img src="/theme_redeem/static/src/img/fund-management-phone.png" alt="Fund Management Interface" -->
+<!--                                         class="img-fluid shadow-lg rounded-4" style="max-width: 350px;" />-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                &lt;!&ndash; FINAL CTA SECTION &ndash;&gt;-->
+<!--                &lt;!&ndash; ======================================== &ndash;&gt;-->
+<!--                <section class="s_call_to_action pt-8 pb-8" data-name="Final CTA" style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);">-->
+<!--                    <div class="container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-lg-8 mx-auto text-center">-->
+<!--                                &lt;!&ndash; Main CTA Content &ndash;&gt;-->
+<!--                                <h2 class="display-5 fw-bold text-white mb-4">-->
+<!--                                    Ready to Transform Your Aid Distribution?-->
+<!--                                </h2>-->
+<!--                                <p class="lead text-white mb-5 opacity-90">-->
+<!--                                    Join thousands of organizations worldwide who are already using Redeem -->
+<!--                                    to deliver hope and financial empowerment to communities that need it most.-->
+<!--                                </p>-->
+<!--                                -->
+<!--                                &lt;!&ndash; CTA Buttons &ndash;&gt;-->
+<!--                                <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center mb-5">-->
+<!--                                    <a href="#contact" class="btn btn-light btn-lg px-5 py-3" style="font-weight: 600;">-->
+<!--                                        <i class="fa fa-rocket me-2"></i>-->
+<!--                                        Get Started Today-->
+<!--                                    </a>-->
+<!--                                    <a href="#demo" class="btn btn-outline-light btn-lg px-5 py-3">-->
+<!--                                        <i class="fa fa-play-circle me-2"></i>-->
+<!--                                        Watch Demo-->
+<!--                                    </a>-->
+<!--                                </div>-->
+<!--                                -->
+<!--                                &lt;!&ndash; Trust Badges &ndash;&gt;-->
+<!--                                <div class="row text-center">-->
+<!--                                    <div class="col-md-3 col-6 mb-3">-->
+<!--                                        <div class="text-white opacity-75">-->
+<!--                                            <i class="fa fa-shield-alt fa-2x mb-2"></i>-->
+<!--                                            <br/><small>Bank-Level Security</small>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-md-3 col-6 mb-3">-->
+<!--                                        <div class="text-white opacity-75">-->
+<!--                                            <i class="fa fa-globe fa-2x mb-2"></i>-->
+<!--                                            <br/><small>Global Compliance</small>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-md-3 col-6 mb-3">-->
+<!--                                        <div class="text-white opacity-75">-->
+<!--                                            <i class="fa fa-headset fa-2x mb-2"></i>-->
+<!--                                            <br/><small>24/7 Support</small>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-md-3 col-6 mb-3">-->
+<!--                                        <div class="text-white opacity-75">-->
+<!--                                            <i class="fa fa-chart-line fa-2x mb-2"></i>-->
+<!--                                            <br/><small>Real-time Analytics</small>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+<!--            </div>-->
+<!--        </xpath>-->
+<!--    </template>-->
+
+</odoo>
