@@ -1,63 +1,137 @@
 /* ==============================
-   Navbar Links Color
+   Vertical Carousel Component
 ================================= */
 .js_vertical_carousel {
   .vertical-carousel {
     position: relative;
+    height: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     overflow: hidden;
-    height: 400px;
+    padding: 3rem 0;
+  }
 
-    .carousel-item {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      opacity: 0;
-      transform: translateY(50px);
-      transition: all 0.5s ease-in-out;
-      padding: 2rem 1rem;
-    }
-
-    .carousel-item.active {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  // Carousel items - more specific targeting
+  .vertical-carousel-item {
+    position: absolute;
+    width: 100%;
+    padding: 1.5rem 2rem;
+    opacity: 0.3;
+    transform: translateY(0);
+    transition: all 0.5s ease-in-out;
+    text-align: left;
+    pointer-events: none;
 
     .step-number {
       font-size: 0.875rem;
       font-weight: 600;
       color: #666;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
+      transition: color 0.3s ease;
     }
 
     .step-title {
       font-size: 1.5rem;
       font-weight: 700;
       color: #1a1a1a;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
       line-height: 1.3;
+      transition: all 0.3s ease;
     }
 
     .step-description {
       color: #666;
       line-height: 1.6;
       margin-bottom: 0;
+      transition: color 0.3s ease;
+    }
+
+    // Active item (center position)
+    &.active {
+      opacity: 1;
+      transform: translateY(0);
+      z-index: 10;
+      pointer-events: auto;
+
+      .step-number {
+        color: #B1025D;
+      }
+
+      .step-title {
+        color: #1a1a1a;
+        transform: scale(1.05);
+      }
+
+      .step-description {
+        color: #333;
+      }
+    }
+
+    // Position -1 (previous item, above active) - VISIBLE
+    &.pos-minus-1 {
+      opacity: 0.3;
+      transform: translateY(-140px);
+      z-index: 5;
+      pointer-events: none;
+    }
+
+    // Position +1 (next item, below active) - VISIBLE  
+    &.pos-1 {
+      opacity: 0.3;
+      transform: translateY(140px);
+      z-index: 5;
+      pointer-events: none;
+    }
+
+    // Position -2 and beyond - HIDDEN (only 3 items visible)
+    &.pos-minus-2 {
+      opacity: 0;
+      transform: translateY(-300px);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    // Position +2 and beyond - HIDDEN (only 3 items visible)
+    &.pos-2 {
+      opacity: 0;
+      transform: translateY(300px);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    // Position -3 and beyond - HIDDEN
+    &.pos-minus-3 {
+      opacity: 0;
+      transform: translateY(-400px);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    // Position +3 and beyond - HIDDEN
+    &.pos-3 {
+      opacity: 0;
+      transform: translateY(400px);
+      z-index: 1;
+      pointer-events: none;
     }
   }
 
   .carousel-nav {
     position: absolute;
-    right: 0;
+    right: -60px;
     top: 50%;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    z-index: 20;
 
     .nav-arrow {
       width: 40px;
       height: 40px;
-      background: var(--primary);
+      background: #B1025D;
       border: none;
       border-radius: 6px;
       color: white;
@@ -66,16 +140,19 @@
       align-items: center;
       justify-content: center;
       transition: all 0.3s ease;
+      box-shadow: 0 2px 8px rgba(177, 2, 93, 0.3);
 
       &:hover {
-        background: var(--primary);
+        background: #8a0248;
         transform: scale(1.05);
+        box-shadow: 0 4px 12px rgba(177, 2, 93, 0.4);
       }
 
       &:disabled {
         background: #ccc;
         cursor: not-allowed;
         transform: none;
+        box-shadow: none;
       }
 
       svg {
@@ -85,22 +162,51 @@
     }
   }
 
-
-}
-
-@media (max-width: 768px) {
-  .js_vertical_carousel {
+  // Tablet responsive styles
+  @media (max-width: 768px) {
     .vertical-carousel {
-      height: 300px;
+      min-height: 500px;
+      padding: 2rem 0;
+    }
 
-      .carousel-item {
-        padding: 1rem 0.5rem;
+    .vertical-carousel-item {
+      padding: 1rem 1.5rem;
 
-        .step-title {
-          font-size: 1.25rem;
-        }
+      // Only 3 items visible on tablet
+      &.pos-minus-1 {
+        opacity: 0.3;
+        transform: translateY(-110px);
       }
 
+      &.pos-1 {
+        opacity: 0.3;
+        transform: translateY(110px);
+      }
+
+      // Hidden items
+      &.pos-minus-2 {
+        opacity: 0;
+        transform: translateY(-250px);
+      }
+
+      &.pos-2 {
+        opacity: 0;
+        transform: translateY(250px);
+      }
+
+      &.pos-minus-3 {
+        opacity: 0;
+        transform: translateY(-350px);
+      }
+
+      &.pos-3 {
+        opacity: 0;
+        transform: translateY(350px);
+      }
+
+      .step-title {
+        font-size: 1.25rem;
+      }
     }
 
     .carousel-nav {
@@ -109,9 +215,61 @@
       flex-direction: row;
       justify-content: center;
       margin-top: 2rem;
+      right: auto;
     }
   }
 
+  // Mobile responsive styles
+  @media (max-width: 576px) {
+    .vertical-carousel {
+      min-height: 400px;
+      padding: 1.5rem 0;
+    }
+
+    .vertical-carousel-item {
+      padding: 0.75rem 1rem;
+
+      // Only 3 items visible on mobile - closer spacing
+      &.pos-minus-1 {
+        opacity: 0.3;
+        transform: translateY(-80px);
+      }
+
+      &.pos-1 {
+        opacity: 0.3;
+        transform: translateY(80px);
+      }
+
+      // Hidden items
+      &.pos-minus-2 {
+        opacity: 0;
+        transform: translateY(-200px);
+      }
+
+      &.pos-2 {
+        opacity: 0;
+        transform: translateY(200px);
+      }
+
+      &.pos-minus-3 {
+        opacity: 0;
+        transform: translateY(-300px);
+      }
+
+      &.pos-3 {
+        opacity: 0;
+        transform: translateY(300px);
+      }
+
+      .step-title {
+        font-size: 1.1rem;
+      }
+
+      .step-description {
+        font-size: 0.9rem;
+      }
+    }
+  }
 }
 
 /* ==============================

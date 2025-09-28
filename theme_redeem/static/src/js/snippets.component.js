@@ -40,7 +40,7 @@ publicWidget.registry.verticalCarousel = publicWidget.Widget.extend({
         this.autoPlayTimer = null;
         this.autoPlayDelay = 4000; // 4 seconds
 
-        this.carouselItems = this.$el.find('.carousel-item');
+        this.carouselItems = this.$el.find('.vertical-carousel-item');
         this.prevBtn = this.$el.find('.nav-prev');
         this.nextBtn = this.$el.find('.nav-next');
 
@@ -48,6 +48,8 @@ publicWidget.registry.verticalCarousel = publicWidget.Widget.extend({
             this._bindEvents();
             this._startAutoPlay();
             this._updateNavigation();
+            // Initialize the first slide with proper states
+            this._showSlide(this.currentIndex);
         }
 
         return Promise.resolve();
@@ -139,11 +141,42 @@ publicWidget.registry.verticalCarousel = publicWidget.Widget.extend({
 
         this.isAnimating = true;
 
-        // Remove active class from all items
-        this.carouselItems.removeClass('active');
+        // Remove all position classes from all items
+        this.carouselItems.removeClass('active pos-1 pos-2 pos-3 pos-minus-1 pos-minus-2 pos-minus-3');
 
-        // Add active class to current item
-        $(this.carouselItems[index]).addClass('active');
+        const totalItems = this.carouselItems.length;
+
+        // Apply position-based classes for smooth transitions
+        this.carouselItems.each((itemIndex, item) => {
+            const $item = $(item);
+
+            // Calculate relative position from current active index
+            let relativePosition = itemIndex - index;
+
+            // Handle circular positioning
+            if (relativePosition > totalItems / 2) {
+                relativePosition -= totalItems;
+            } else if (relativePosition < -totalItems / 2) {
+                relativePosition += totalItems;
+            }
+
+            // Apply position-based classes
+            if (relativePosition === 0) {
+                $item.addClass('active');
+            } else if (relativePosition === -1) {
+                $item.addClass('pos-minus-1');
+            } else if (relativePosition === 1) {
+                $item.addClass('pos-1');
+            } else if (relativePosition === -2) {
+                $item.addClass('pos-minus-2');
+            } else if (relativePosition === 2) {
+                $item.addClass('pos-2');
+            } else if (relativePosition <= -3) {
+                $item.addClass('pos-minus-3');
+            } else if (relativePosition >= 3) {
+                $item.addClass('pos-3');
+            }
+        });
 
         // Update navigation state
         this._updateNavigation();
