@@ -68,10 +68,11 @@
 
                                         <!-- CTA Buttons -->
                                         <div class="d-flex flex-wrap gap-3 align-items-center">
-                                            <a href="#" class="btn btn-outline-primary text-uppercase fw-medium">
+                                            <a href="#application"
+                                               class="btn btn-outline-primary text-uppercase fw-medium">
                                                 Get Started
                                             </a>
-                                            <a href="https://www.taqat.qa/"
+                                            <a target="_blank" href="https://www.taqat.qa/"
                                                class="btn btn-link text-decoration-none text-primary">
                                                 <span class="">Visit Taqat Website</span>
                                             </a>
@@ -80,8 +81,9 @@
                                 </div>
 
                                 <!-- Right Content - Mobile Mockups -->
-                                <div class="col-lg-6 col-md-5">
-                                    <img src="/theme_redeem/static/src/img/home_hero.webp" alt=""/>
+                                <div class="col-lg-6 col-md-5 mt-4">
+                                    <img class="w-100" src="/theme_redeem/static/src/img/home_hero.webp"
+                                         alt="mobile mockup"/>
                                 </div>
                             </div>
                         </div>
@@ -152,7 +154,7 @@
                     <!--                    </div>-->
                     <!--                </section>-->
 
-                    <section class="features-section py-5 my-lg-5">
+                    <section id="features" class="features-section py-lg-5 my-lg-5">
                         <div class="container text-center mb-lg-5">
                             <div class="row py-4 my-5">
                                 <!-- Title -->
@@ -167,51 +169,51 @@
                                 <!-- Wrapper -->
                                 <div class="position-relative mt-lg-5">
                                     <!-- Center Phone -->
-                                    <div class="position-relative rounded-circle text-center m-auto pt-5"
+                                    <div class="position-relative   background_mobile rounded-circle text-center m-auto pt-5"
                                          style="background-color: #B1025D; min-height: 500px;max-width:500px"/>
                                     <div class="center-phone bg-danger">
                                     </div>
                                     <img style="  min-height: 600px; max-width: 593px; position: absolute;  top: -62px; left: 50%;
-            transform: translateX(-50%);"
+                    transform: translateX(-50%);"
                                          src="/theme_redeem/static/src/images/home/mopile.webp"
                                          alt="App"
-                                         class="img-fluid mobile_response   "
+                                         class="img-fluid w-100 mobile_response   "
                                     />
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: -42px;
-            left: 70px;" class="p-4 position-xl-absolute box_feature rounded-5">
+                    left: 70px;" class="p-4 position-xl-absolute box_feature rounded-5">
                                         <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: 172px;
-            left: 0;" class="p-4 box_feature position-xl-absolute rounded-5">
+                    left: 0;" class="p-4 box_feature position-xl-absolute rounded-5">
                                         <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;left: 61px;
-            bottom: 0;
-            " class="p-4 box_feature  position-xl-absolute rounded-5">
+                    bottom: 0;
+                    " class="p-4 box_feature  position-xl-absolute rounded-5">
                                         <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: -42px;
-            right: 70px;" class="p-4 position-xl-absolute box_feature rounded-5">
+                    right: 70px;" class="p-4 position-xl-absolute box_feature rounded-5">
                                         <h5 class="text-primary box_feature pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: 172px;
-            right: 0;" class="p-4 box_feature position-xl-absolute  rounded-5">
+                                   right: 0;" class="p-4 box_feature position-xl-absolute  rounded-5">
                                         <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;right: 61px;
-            bottom: 0;
-            " class="p-4  box_feature position-xl-absolute rounded-5">
+                                     bottom: 0;
+                                    " class="p-4  box_feature position-xl-absolute rounded-5">
                                         <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
@@ -220,11 +222,19 @@
                         </div>
                     </section>
                     <section id="automated_management">
-                        <div class="container">
+                        <div class="container py-5">
                             <div class="row">
-                                <div class="col-lg-6">
-                                    <section class="s_text_block border-0 pt40 pb0 o_colored_level"
-                                             data-snippet="s_text_block">
+                                <div class="col-lg-6   order-2 order-lg-1  ">
+                                    <div class="content ">
+                                        <h3 class="text-primary pb-3 fs-4 fw-bold">Automated Fund Management</h3>
+                                        <p class="text-primary " style="max-width: 545px;">The Redeem app provides more
+                                            than just
+                                            technology, it delivers tangible
+                                            benefits for your organization and the communities you serve.
+                                        </p>
+                                    </div>
+                                    <div class="s_text_block border-0 pt40 pb0 o_colored_level"
+                                         data-snippet="s_text_block">
                                         <div class="s_allow_columns container">
                                             <div data-name="Accordion" data-snippet="s_accordion" class="s_accordion">
                                                 <div id="myCollapse" class="accordion">
@@ -232,28 +242,23 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header ps-0 accordion-button fw-bold fs-4 gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_5"
                                                                 aria-controls="myCollapseTab814744_5">
-                                                            <span class="flex-grow-1">What services does your company
-                                                                offer
-                                                                ?
+                                                            <span class="flex-grow-1">Empower Beneficiaries with Dignity
                                                             </span>
-                                                            <img src="/theme_redeem/static/src/images/home/rigth.png"/>
+                                                            <img loading="lazy" alt="right"
+                                                                 src="/theme_redeem/static/src/images/home/rigth.png"/>
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
                                                              data-bs-parent="#myCollapse" role="region"
                                                              id="myCollapseTab814744_5"
                                                              aria-labelledby="accordion-button814744_1">
                                                             <div class="accordion-body">
-                                                                <p>Our company specializes in consulting, product
-                                                                    development, and customer support. We tailor our
-                                                                    services to fit the unique needs of businesses
-                                                                    across
-                                                                    various sectors, helping them grow and succeed in a
-                                                                    competitive market.
+                                                                <p>Move beyond handing out goods and give beneficiaries
+                                                                    the freedom to choose what they truly need.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -262,27 +267,26 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_2"
                                                                 aria-controls="myCollapseTab814744_2">
-                                                            <span class="flex-grow-1">What services does your company
-                                                                offer
-                                                                ?
+                                                            <span class="flex-grow-1">
+                                                                Boost Local Economies
                                                             </span>
+                                                            <img loading="lazy"
+                                                                 src="/theme_redeem/static/src/images/home/rigth.png"/>
+
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
                                                              data-bs-parent="#myCollapse" role="region"
                                                              id="myCollapseTab814744_2"
                                                              aria-labelledby="accordion-button814744_1">
                                                             <div class="accordion-body">
-                                                                <p>Our company specializes in consulting, product
-                                                                    development, and customer support. We tailor our
-                                                                    services to fit the unique needs of businesses
-                                                                    across
-                                                                    various sectors, helping them grow and succeed in a
-                                                                    competitive market.
+                                                                <p>By partnering with local merchants, you ensure that
+                                                                    aid money directly supports and strengthens the
+                                                                    communities you serve.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -291,27 +295,24 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_3"
                                                                 aria-controls="myCollapseTab814744_3">
-                                                            <span class="flex-grow-1">What services does your company
-                                                                offer
-                                                                ?
+                                                            <span class="flex-grow-1">Reduce Administrative Overhead
                                                             </span>
+                                                            <img loading="lazy"
+                                                                 src="/theme_redeem/static/src/images/home/rigth.png"/>
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
                                                              data-bs-parent="#myCollapse" role="region"
                                                              id="myCollapseTab814744_3"
                                                              aria-labelledby="accordion-button814744_1">
                                                             <div class="accordion-body">
-                                                                <p>Our company specializes in consulting, product
-                                                                    development, and customer support. We tailor our
-                                                                    services to fit the unique needs of businesses
-                                                                    across
-                                                                    various sectors, helping them grow and succeed in a
-                                                                    competitive market.
+                                                                <p>Eliminate the logistical challenges and costs
+                                                                    associated with procuring, storing, and distributing
+                                                                    physical goods or cash.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -320,27 +321,24 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_4"
                                                                 aria-controls="myCollapseTab814744_4">
-                                                            <span class="flex-grow-1">What services does your company
-                                                                offer
-                                                                ?
+                                                            <span class="flex-grow-1">Scalable for Any Operation
                                                             </span>
+                                                            <img loading="lazy"
+                                                                 src="/theme_redeem/static/src/images/home/rigth.png"/>
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
                                                              data-bs-parent="#myCollapse" role="region"
                                                              id="myCollapseTab814744_4"
                                                              aria-labelledby="accordion-button814744_1">
                                                             <div class="accordion-body">
-                                                                <p>Our company specializes in consulting, product
-                                                                    development, and customer support. We tailor our
-                                                                    services to fit the unique needs of businesses
-                                                                    across
-                                                                    various sectors, helping them grow and succeed in a
-                                                                    competitive market.
+                                                                <p>Whether you support ten beneficiaries or ten
+                                                                    thousand, our platform is built to scale with the
+                                                                    size and complexity of your mission.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -349,18 +347,24 @@
                                             </div>
                                             <h1 style="text-align: center;">&amp;nbsp;</h1>
                                         </div>
-                                    </section>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6  hero_section pb-5 pb-lg-0   order-1 order-lg-2 ">
+                                    <img class="w-100" loading="lazy"
+                                         src="/theme_redeem/static/src/images/home/image.webp"
+                                         alt="automated management"/>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section id="Ready" class="py-5 overflow-hidden mb-lg-5">
+                    <section id="application" class="py-5 overflow-hidden mb-lg-5">
                         <div class="container">
                             <div class="row text-center text-lg-start">
                                 <div class="content      text-center m-auto">
                                     <h4 class="pb-2 fs-4 fw-bold text-primary">Ready to Transform Your Aid Distribution?
                                     </h4>
-                                    <p style="max-width: 815px;" class=" m-auto pb-5 mb-5 text-primary">Join the growing
+                                    <p style="max-width: 815px;" class=" m-auto pb-lg-5 mb-5 text-primary">Join the
+                                        growing
                                         number of
                                         organizations using Redeem
                                         App to deliver aid with more efficiency, transparency, and impact than ever
@@ -374,7 +378,7 @@
                                         <h4 class="pb-2 fw-bold text-primary">For Merchant</h4>
                                         <h5 class="pb-3">Manage donations and payments easily</h5>
                                         <div class="links row align-items-center   m-auto    gap-4 align-items-center  ">
-                                            <a style=" padding: 12px 26px;"
+                                            <a href="/" style=" padding: 12px 26px;"
                                                class="btn rounded-4 w-100 col-lg    w-lg-auto  text-start  h-100 align-items-center btn-primary d-flex gap-3  rounded-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="26"
                                                      viewBox="0 0 22 26" fill="none">
@@ -388,7 +392,7 @@
                                                     <span class="text-white d-block   fw-bold">App Store</span>
                                                 </div>
                                             </a>
-                                            <a style="  padding: 12px 26px;"
+                                            <a href="/" style="  padding: 12px 26px;"
                                                class="btn  col-lg w-100   w-lg-auto   h-100 align-items-center btn-outline-primary d-flex gap-3  rounded-4">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24"
                                                      viewBox="0 0 21 24" fill="none">
@@ -451,7 +455,7 @@
                                         </h4>
                                         <h5 class="pb-3">Receive and manage support securely</h5>
                                         <div class="links flex-wrap row align-items-center   m-auto    gap-4 align-items-center  ">
-                                            <a style=" padding: 12px 26px;"
+                                            <a href="/" style=" padding: 12px 26px;"
                                                class="btn rounded-4 col-lg w-100  h-auto  w-lg-auto  text-start  h-100 align-items-center btn-secondary d-flex gap-3  rounded-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="26"
                                                      viewBox="0 0 22 26" fill="none">
@@ -467,7 +471,7 @@
                                                     </span>
                                                 </div>
                                             </a>
-                                            <a style="  padding: 12px 26px;"
+                                            <a href="/" style="  padding: 12px 26px;"
                                                class="btn col-lg  w-100  h-auto w-lg-auto   h-100 align-items-center btn-outline-secondary d-flex gap-3  rounded-4">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24"
                                                      viewBox="0 0 21 24" fill="none">

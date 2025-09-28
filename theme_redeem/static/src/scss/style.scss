@@ -5,6 +5,9 @@ nav #top_menu li a {
   color: #124F81 !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 /* ==============================
    Hero Section Animation
@@ -80,8 +83,21 @@ nav #top_menu li a {
   }
 }
 
+@media (max-width: 425px) {
+  .background_mobile {
+    min-height: 347px !important;
+    max-width: 347px !important;
+  }
+  .mobile_response {
+    max-height: 100%;
+    width: 100%;
+  }
+}
+
+
 #automated_management {
   .s_accordion .accordion-button:after {
     content: '' !important;
+    display: none !important;
   }
 }
