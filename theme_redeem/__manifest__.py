@@ -21,7 +21,7 @@ Key Features:
     """,
     'author': 'Pearl Pixels',
     'website': 'https://www.pearlpixels.com',
-    'depends': ['website'],
+    'depends': ['theme_common'],
     'images': [
         'static/description/redeem_description.jpg',
         'static/description/redeem_screenshot.jpg',
@@ -29,11 +29,15 @@ Key Features:
     'data': [
         # Homepage template
         'data/home.xml',
-        
+
+        # Layout
+        'data/footer.xml',
+        'data/header.xml',
+
         # Theme assets and images
         'data/data.xml',
-        
-        # Menu structure (if needed)
+
+        # website menu structure
         'data/menu.xml',
 
     ],

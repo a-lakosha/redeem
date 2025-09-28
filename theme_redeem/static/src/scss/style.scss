@@ -1,0 +1,87 @@
+/* ==============================
+   Navbar Links Color
+================================= */
+nav #top_menu li a {
+  color: #124F81 !important;
+}
+
+
+/* ==============================
+   Hero Section Animation
+================================= */
+.hero_section {
+  animation: top_heros 0.8s forwards ease-out;
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+@keyframes top_heros {
+  from {
+    transform: translateY(100px);
+    filter: blur(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+/* ==============================
+   Content Sequential Animation
+================================= */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+    filter: blur(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+.content > * {
+  opacity: 0;
+  animation: fadeUp 0.8s ease forwards;
+}
+
+.content > *:nth-child(1) {
+  animation-delay: 0.3s;
+}
+
+.content > *:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+.content > *:nth-child(3) {
+  animation-delay: 0.9s;
+}
+
+.content > *:nth-child(4) {
+  animation-delay: 1.2s;
+}
+
+.content > *:nth-child(5) {
+  animation-delay: 1.5s;
+}
+
+@media (max-width: 1200px) {
+  .mobile_response {
+    min-height: auto !important;
+    height: auto !important;
+  }
+  .box_feature {
+    margin-top: 30px;
+    width: 100% !important;
+  }
+}
+
+#automated_management {
+  .s_accordion .accordion-button:after {
+    content: '' !important;
+  }
+}

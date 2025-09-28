@@ -1,27 +1,24 @@
 <odoo>
     <data>
+        <record id="theme_redeem.style_scss" model="theme.ir.asset">
+            <field name="key">theme_redeem.style_scss</field>
+            <field name="name">Big icons 000 SCSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_redeem/static/src/scss/style.scss</field>
+        </record>
 
-<record id="theme_redeem.style_scss" model="theme.ir.asset">
-    <field name="key">theme_redeem.style_scss</field>
-    <field name="name">Big icons 000 SCSS</field>
-    <field name="bundle">web.assets_frontend</field>
-    <field name="path">theme_redeem/static/src/scss/style.scss</field>
-    <field name="active" eval="False"/>
-</record>
+        <record id="theme_redeem.primary_variables_scss" model="theme.ir.asset">
+            <field name="key">theme_redeem.primary_variables_scss</field>
+            <field name="name">Primary variables SCSS</field>
+            <field name="bundle">web._assets_primary_variables</field>
+            <field name="path">theme_redeem/static/src/scss/primary_variables.scss</field>
+        </record>
 
-<record id="theme_redeem.primary_variables_scss" model="theme.ir.asset">
-    <field name="key">theme_redeem.primary_variables_scss</field>
-    <field name="name">Primary variables SCSS</field>
-    <field name="bundle">web._assets_primary_variables</field>
-    <field name="path">theme_redeem/static/src/scss/primary_variables.scss</field>
-</record>
-
-<!--<record id="theme_redeem.bootstrap_overridden_scss" model="theme.ir.asset">-->
-<!--    <field name="key">theme_redeem.bootstrap_overridden_scss</field>-->
-<!--    <field name="name">Bootstrap overridden SCSS</field>-->
-<!--    <field name="bundle">web._assets_frontend_helpers</field>-->
-<!--    <field name="directive">prepend</field>-->
-<!--    <field name="path">theme_redeem/static/src/scss/bootstrap_overridden.scss</field>-->
-<!--</record>-->
+        <record id="theme_redeem.bootstrap_icons" model="theme.ir.asset">
+            <field name="key">theme_redeem.bootstrap_icons</field>
+            <field name="name">Big icons 000 SCSS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_redeem/static/src/lib/bootstrap-icons/bootstrap-icons.css</field>
+        </record>
     </data>
 </odoo>

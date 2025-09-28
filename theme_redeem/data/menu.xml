@@ -9,7 +9,7 @@
     <!-- Example menu items (commented out for single-page design) -->
 
     <record id="menu_features" model="website.menu">
-        <field name="name">Features</field>
+        <field name="name">Feature</field>
         <field name="url">/#features</field>
         <field name="parent_id" ref="website.main_menu"/>
         <field name="sequence" type="int">20</field>

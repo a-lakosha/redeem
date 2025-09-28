@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+            <template id="custom_theme_redeem_header" inherit_id="website.navbar_nav" name="Redeem Header">
+                     <xpath expr="//ul" position="attributes">
+                         <attribute name="t-attf-class" add="m-auto text-primary" separator=" "/>
+                     </xpath>
+
+            </template>
+        <template id="custom_btn" inherit_id="website.header_call_to_action">
+        <xpath expr="//a[hasclass('oe_unremovable')]" position="replace">
+           <a href="/contactus" class="oe_unremovable btn btn-outline-primary btn_cta">Get the app now</a>
+        </xpath>
+        </template>
+    </data>
+</odoo>
