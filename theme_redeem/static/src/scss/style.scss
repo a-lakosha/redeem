@@ -5,6 +5,7 @@ nav #top_menu li a {
   color: #124F81 !important;
 }
 
+
 /* ==============================
    Hero Section Animation
 ================================= */
@@ -51,26 +52,36 @@ nav #top_menu li a {
 .content > *:nth-child(1) {
   animation-delay: 0.3s;
 }
+
 .content > *:nth-child(2) {
   animation-delay: 0.6s;
 }
+
 .content > *:nth-child(3) {
   animation-delay: 0.9s;
 }
+
 .content > *:nth-child(4) {
   animation-delay: 1.2s;
 }
+
 .content > *:nth-child(5) {
   animation-delay: 1.5s;
 }
 
-@media (max-width:1200px) {
-  .mobile_response{
+@media (max-width: 1200px) {
+  .mobile_response {
     min-height: auto !important;
     height: auto !important;
   }
-  .box_feature{
+  .box_feature {
     margin-top: 30px;
     width: 100% !important;
+  }
+}
+
+#automated_management {
+  .s_accordion .accordion-button:after {
+    content: '' !important;
   }
 }

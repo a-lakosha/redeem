@@ -219,95 +219,138 @@
                             </div>
                         </div>
                     </section>
-                    <section>
+                    <section id="automated_management">
                         <div class="container">
                             <div class="row">
-                                <section class="s_text_block pt40 pb0 o_colored_level" data-snippet=" ">
-                                    <div class="s_allow_columns container">
-                                        <div data-name="Accordion" data-snippet="s_accordion" class="s_accordion">
-                                            <div id="myCollapse" class="accordion">
-                                                <div class="accordion-item position-relative z-1"
-                                                     data-name="Accordion Item" style="--accordion-border-radius: 0px;">
-                                                    <button type="button"
-                                                            class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
-                                                            data-bs-toggle="collapse" aria-expanded="true"
-                                                            id="accordion-button814744_1"
-                                                            data-bs-target="#myCollapseTab814744_1"
-                                                            aria-controls="myCollapseTab814744_1">
-                                                        <span class="flex-grow-1">What services does your company offer
-                                                            ?
-                                                        </span>
-                                                    </button>
-                                                    <div class="accordion-collapse collapse show"
-                                                         role="region"
-                                                         id="myCollapseTab814744_1"
-                                                         aria-labelledby="accordion-button814744_1">
-                                                        <div class="accordion-body">
-                                                            <p>Our company specializes in consulting, product
-                                                                development, and customer support. We tailor our
-                                                                services to fit the unique needs of businesses across
-                                                                various sectors, helping them grow and succeed in a
-                                                                competitive market.
-                                                            </p>
+                                <div class="col-lg-6">
+                                    <section class="s_text_block border-0 pt40 pb0 o_colored_level"
+                                             data-snippet="s_text_block">
+                                        <div class="s_allow_columns container">
+                                            <div data-name="Accordion" data-snippet="s_accordion" class="s_accordion">
+                                                <div id="myCollapse" class="accordion">
+                                                    <div class="accordion-item position-relative border-0 z-1"
+                                                         data-name="Accordion Item"
+                                                         style="--accordion-border-radius: 0px;">
+                                                        <button type="button"
+                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                data-bs-toggle="collapse" aria-expanded="true"
+                                                                id="accordion-button814744_1"
+                                                                data-bs-target="#myCollapseTab814744_5"
+                                                                aria-controls="myCollapseTab814744_5">
+                                                            <span class="flex-grow-1">What services does your company
+                                                                offer
+                                                                ?
+                                                            </span>
+                                                            <img src="/theme_redeem/static/src/images/home/rigth.png"/>
+                                                        </button>
+                                                        <div class="accordion-collapse collapse show"
+                                                             data-bs-parent="#myCollapse" role="region"
+                                                             id="myCollapseTab814744_5"
+                                                             aria-labelledby="accordion-button814744_1">
+                                                            <div class="accordion-body">
+                                                                <p>Our company specializes in consulting, product
+                                                                    development, and customer support. We tailor our
+                                                                    services to fit the unique needs of businesses
+                                                                    across
+                                                                    various sectors, helping them grow and succeed in a
+                                                                    competitive market.
+                                                                </p>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="accordion-item position-relative z-1"
-                                                     data-name="Accordion Item" style="--accordion-border-radius: 0px;">
-                                                    <button type="button"
-                                                            class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none collapsed justify-content-end flex-row-reverse o_icons_position_reversed"
-                                                            data-bs-toggle="collapse" aria-expanded="true"
-                                                            id="accordion-button814744_2"
-                                                            data-bs-target="#myCollapseTab814744_2"
-                                                            aria-controls="myCollapseTab814744_2">
-                                                        <span class="flex-grow-1">How can I contact customer support ?
-                                                        </span>
-                                                    </button>
-                                                    <div class="accordion-collapse collapse"
-                                                         data-bs-parent="#myCollapse" role="region"
-                                                         id="myCollapseTab814744_2"
-                                                         aria-labelledby="accordion-button814744_2">
-                                                        <div class="accordion-body">
-                                                            <p>You can reach our customer support team by emailing
-                                                                info@yourcompany.example.com, calling +1 555-555-5556,
-                                                                or using the live chat on our website. Our dedicated
-                                                                team is available 24/7 to assist with any inquiries or
-                                                                issues.
-                                                            </p>
-                                                            <p>We’re committed to providing prompt and effective
-                                                                solutions to ensure your satisfaction.
-                                                            </p>
+                                                    <div class="accordion-item position-relative border-0 z-1"
+                                                         data-name="Accordion Item"
+                                                         style="--accordion-border-radius: 0px;">
+                                                        <button type="button"
+                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                data-bs-toggle="collapse" aria-expanded="true"
+                                                                id="accordion-button814744_1"
+                                                                data-bs-target="#myCollapseTab814744_2"
+                                                                aria-controls="myCollapseTab814744_2">
+                                                            <span class="flex-grow-1">What services does your company
+                                                                offer
+                                                                ?
+                                                            </span>
+                                                        </button>
+                                                        <div class="accordion-collapse collapse show"
+                                                             data-bs-parent="#myCollapse" role="region"
+                                                             id="myCollapseTab814744_2"
+                                                             aria-labelledby="accordion-button814744_1">
+                                                            <div class="accordion-body">
+                                                                <p>Our company specializes in consulting, product
+                                                                    development, and customer support. We tailor our
+                                                                    services to fit the unique needs of businesses
+                                                                    across
+                                                                    various sectors, helping them grow and succeed in a
+                                                                    competitive market.
+                                                                </p>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="accordion-item position-relative z-1"
-                                                     data-name="Accordion Item" style="--accordion-border-radius: 0px;">
-                                                    <button type="button"
-                                                            class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none collapsed justify-content-end flex-row-reverse o_icons_position_reversed"
-                                                            data-bs-toggle="collapse" aria-expanded="true"
-                                                            id="accordion-button814744_3"
-                                                            data-bs-target="#myCollapseTab814744_3"
-                                                            aria-controls="myCollapseTab814744_3">
-                                                        <span class="flex-grow-1">What is your return policy ?</span>
-                                                    </button>
-                                                    <div class="accordion-collapse collapse"
-                                                         data-bs-parent="#myCollapse" role="region"
-                                                         id="myCollapseTab814744_3"
-                                                         aria-labelledby="accordion-button814744_3">
-                                                        <div class="accordion-body">
-                                                            <p>We offer a 30-day return policy for all products. Items
-                                                                must be in their original condition, unused, and include
-                                                                the receipt or proof of purchase. Refunds are processed
-                                                                within 5-7 business days of receiving the returned item.
-                                                            </p>
+                                                    <div class="accordion-item position-relative border-0 z-1"
+                                                         data-name="Accordion Item"
+                                                         style="--accordion-border-radius: 0px;">
+                                                        <button type="button"
+                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                data-bs-toggle="collapse" aria-expanded="true"
+                                                                id="accordion-button814744_1"
+                                                                data-bs-target="#myCollapseTab814744_3"
+                                                                aria-controls="myCollapseTab814744_3">
+                                                            <span class="flex-grow-1">What services does your company
+                                                                offer
+                                                                ?
+                                                            </span>
+                                                        </button>
+                                                        <div class="accordion-collapse collapse show"
+                                                             data-bs-parent="#myCollapse" role="region"
+                                                             id="myCollapseTab814744_3"
+                                                             aria-labelledby="accordion-button814744_1">
+                                                            <div class="accordion-body">
+                                                                <p>Our company specializes in consulting, product
+                                                                    development, and customer support. We tailor our
+                                                                    services to fit the unique needs of businesses
+                                                                    across
+                                                                    various sectors, helping them grow and succeed in a
+                                                                    competitive market.
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item position-relative border-0 z-1"
+                                                         data-name="Accordion Item"
+                                                         style="--accordion-border-radius: 0px;">
+                                                        <button type="button"
+                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                data-bs-toggle="collapse" aria-expanded="true"
+                                                                id="accordion-button814744_1"
+                                                                data-bs-target="#myCollapseTab814744_4"
+                                                                aria-controls="myCollapseTab814744_4">
+                                                            <span class="flex-grow-1">What services does your company
+                                                                offer
+                                                                ?
+                                                            </span>
+                                                        </button>
+                                                        <div class="accordion-collapse collapse show"
+                                                             data-bs-parent="#myCollapse" role="region"
+                                                             id="myCollapseTab814744_4"
+                                                             aria-labelledby="accordion-button814744_1">
+                                                            <div class="accordion-body">
+                                                                <p>Our company specializes in consulting, product
+                                                                    development, and customer support. We tailor our
+                                                                    services to fit the unique needs of businesses
+                                                                    across
+                                                                    various sectors, helping them grow and succeed in a
+                                                                    competitive market.
+                                                                </p>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <h1 style="text-align: center;">&amp;nbsp;</h1>
                                         </div>
-                                        <h1 style="text-align: center;">&amp;nbsp;</h1>
-                                    </div>
-                                </section>
+                                    </section>
+                                </div>
                             </div>
                         </div>
                     </section>
