@@ -1,0 +1,19 @@
+<odoo>
+    <data>
+
+<record id="theme_redeem.style_scss" model="theme.ir.asset">
+    <field name="key">theme_redeem.style_scss</field>
+    <field name="name">Big icons 000 SCSS</field>
+    <field name="bundle">web.assets_frontend</field>
+    <field name="path">theme_redeem/static/src/scss/style.scss</field>
+    <field name="active" eval="False"/>
+</record>
+
+<record id="theme_redeem.primary_variables_scss" model="theme.ir.asset">
+    <field name="key">theme_redeem.primary_variables_scss</field>
+    <field name="name">Primary variables SCSS</field>
+    <field name="bundle">web._assets_primary_variables</field>
+    <field name="path">theme_redeem/static/src/scss/primary_variables.scss</field>
+</record>
+    </data>
+</odoo>
