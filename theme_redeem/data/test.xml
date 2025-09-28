@@ -34,55 +34,72 @@
                             </svg>
 
                         </div>
-                        <div class="col-lg-6 js_vertical_carousel">
-                            <div class="row">
-                                <div class="pt16 pb16 o_colored_level col-lg-12">
-                                    <h3 class="h6-fs">
-                                        <strong>What sets us apart?</strong>
-                                    </h3>
-                                    <p>We deliver personalized solutions, ensuring that every customer receives
-                                        top-tier service tailored to their needs.
-                                    </p>
+                        <div class="col-lg-6 js_vertical_carousel position-relative">
+                            <div class="h-100">
+                                <div class="vertical-carousel">
+                                    <div class="carousel-item active" data-step="1">
+                                        <div class="step-number">01</div>
+                                        <h3 class="step-title">Register &amp; Get Verified</h3>
+                                        <p class="step-description">Your organization signs up on the Taqat platform.
+                                            Our
+                                            team verifies your documents to establish a secure and trusted partnership.
+                                        </p>
+                                    </div>
+
+                                    <div class="carousel-item" data-step="2">
+                                        <div class="step-number">02</div>
+                                        <h3 class="step-title">Onboard Your Beneficiaries</h3>
+                                        <p class="step-description">Easily upload a list of your beneficiaries and
+                                            define
+                                            the balance to be allocated to each person through your dedicated portal.
+                                        </p>
+                                    </div>
+
+                                    <div class="carousel-item" data-step="3">
+                                        <div class="step-number">03</div>
+                                        <h3 class="step-title">Monitor, Track, Analyze &amp; Report</h3>
+                                        <p class="step-description">Log in to your portal at any time to see a complete
+                                            overview of all transactions. Monitor your program's impact with powerful,
+                                            real-time data and detailed spending reports.
+                                        </p>
+                                    </div>
+
+                                    <div class="carousel-item" data-step="4">
+                                        <div class="step-number">04</div>
+                                        <h3 class="step-title">Automated Fund Management</h3>
+                                        <p class="step-description">Our system automatically manages fund distribution
+                                            and
+                                            ensures secure transactions while providing complete transparency and
+                                            control
+                                            over your charity programs.
+                                        </p>
+                                    </div>
+
+                                    <div class="carousel-item" data-step="5">
+                                        <div class="step-number">05</div>
+                                        <h3 class="step-title">24/7 Support &amp; Security</h3>
+                                        <p class="step-description">We provide round-the-clock support through multiple
+                                            channels and ensure your data is protected by advanced encryption and
+                                            security
+                                            protocols.
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="pt16 pb16 o_colored_level col-lg-12">
-                                    <h3 class="h6-fs">
-                                        <strong>Is the website user-friendly?</strong>
-                                    </h3>
-                                    <p>Our website is designed for easy navigation, allowing you to find the
-                                        information you need quickly and efficiently.
-                                    </p>
-                                </div>
-                                <div class="pt16 pb16 o_colored_level col-lg-12">
-                                    <h3 class="h6-fs">
-                                        <strong>Can you trust our partners?</strong>
-                                    </h3>
-                                    <p>We collaborate with trusted, high-quality partners to bring you reliable and
-                                        top-notch products and services.
-                                    </p>
-                                </div>
-                                <div class="pt16 pb16 o_colored_level col-lg-12">
-                                    <h3 class="h6-fs">
-                                        <strong>What support do we offer?</strong>
-                                    </h3>
-                                    <p>We provide 24/7 support through various channels, including live chat, email,
-                                        and phone, to assist with any queries.
-                                    </p>
-                                </div>
-                                <div class="pt16 pb16 o_colored_level col-lg-12">
-                                    <h3 class="h6-fs">
-                                        <strong>How is your data secured?</strong>
-                                    </h3>
-                                    <p>Your data is protected by advanced encryption and security protocols, keeping
-                                        your personal information safe.
-                                    </p>
-                                </div>
-                                <div class="pt16 pb16 o_colored_level col-lg-12">
-                                    <h3 class="h6-fs">
-                                        <strong>Are links to other websites approved?</strong>
-                                    </h3>
-                                    <p>Although this Website may be linked to other websites, we are not, directly
-                                        or indirectly, implying any approval.
-                                    </p>
+                                <div class="carousel-nav">
+                                    <button class="nav-arrow nav-prev" type="button">
+                                        <svg fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd"
+                                                  d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                                                  clip-rule="evenodd"/>
+                                        </svg>
+                                    </button>
+                                    <button class="nav-arrow nav-next" type="button">
+                                        <svg fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd"
+                                                  d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                  clip-rule="evenodd"/>
+                                        </svg>
+                                    </button>
                                 </div>
                             </div>
                         </div>

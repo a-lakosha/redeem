@@ -1,6 +1,122 @@
 /* ==============================
    Navbar Links Color
 ================================= */
+.js_vertical_carousel {
+  .vertical-carousel {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+
+    .carousel-item {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 0.5s ease-in-out;
+      padding: 2rem 1rem;
+    }
+
+    .carousel-item.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .step-number {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #666;
+      margin-bottom: 1rem;
+    }
+
+    .step-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #1a1a1a;
+      margin-bottom: 1rem;
+      line-height: 1.3;
+    }
+
+    .step-description {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+  }
+
+  .carousel-nav {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    .nav-arrow {
+      width: 40px;
+      height: 40px;
+      background: var(--primary);
+      border: none;
+      border-radius: 6px;
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+
+      &:hover {
+        background: var(--primary);
+        transform: scale(1.05);
+      }
+
+      &:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+        transform: none;
+      }
+
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .js_vertical_carousel {
+    .vertical-carousel {
+      height: 300px;
+
+      .carousel-item {
+        padding: 1rem 0.5rem;
+
+        .step-title {
+          font-size: 1.25rem;
+        }
+      }
+
+    }
+
+    .carousel-nav {
+      position: static;
+      transform: none;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+  }
+
+}
+
+/* ==============================
+   Navbar Links Color
+================================= */
 nav #top_menu li a {
   color: #124F81 !important;
 }
