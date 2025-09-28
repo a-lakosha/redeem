@@ -29,6 +29,7 @@ Key Features:
     'data': [
         # Homepage template
         'data/home.xml',
+        'data/test.xml',
 
         # Layout
         'data/footer.xml',
