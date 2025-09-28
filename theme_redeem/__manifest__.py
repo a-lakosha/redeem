@@ -21,7 +21,7 @@ Key Features:
     """,
     'author': 'Pearl Pixels',
     'website': 'https://www.pearlpixels.com',
-    'depends': ['website'],
+    'depends': ['theme_common'],
     'images': [
         'static/description/redeem_description.jpg',
         'static/description/redeem_screenshot.jpg',
@@ -29,24 +29,18 @@ Key Features:
     'data': [
         # Homepage template
         'data/home.xml',
-        # 'data/home_page.xml',
+
+        # Layout
         'data/footer.xml',
         'data/header.xml',
+
         # Theme assets and images
         'data/data.xml',
-        # Menu structure (if needed)
+
+        # website menu structure
         'data/menu.xml',
 
     ],
-    'assets': {
-            'web.assets_frontend': [
-                'theme_redeem/static/src/scss/style.scss',
-            ],
-            'web._assets_primary_variables': [
-                # 'theme_redeem/static/src/scss/primary_variables.scss',
-                'theme_redeem/static/src/lib/bootstrap-icons/bootstrap-icons.css',
-            ],
-        },
     'installable': True,
     'application': False,
     'auto_install': False,

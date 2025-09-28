@@ -11,60 +11,53 @@
 // ===================================================================
 
 $o-website-values-palettes: (
-    (
-        // === CORE CONFIGURATION ===
-        'color-palettes-name': 'redeem',
-        
-        // === TYPOGRAPHY ===
-        'font': 'Inter',                        // Clean, modern font matching Figma
-        'headings-font': 'Inter',               // Consistent font family
-        'navbar-font': 'Inter',                 // Navigation font
-        'buttons-font': 'Inter',                // Button text font
-        'headings-line-height': 1.2,           // Tight line height for headings
-        
-        // === HEADER & NAVIGATION ===
-        'header-template': 'default',           // Standard header layout
-        'header-font-size': 1rem,               // Navigation text size
-        'header-links-style': 'default',        // Clean link styling
-        'logo-height': 2.5rem,                  // Logo size
-        'fixed-logo-height': 2rem,              // Fixed header logo size
-        
-        // === BUTTONS ===
-        'btn-padding-y': 1rem,                // Button vertical padding
-        'btn-padding-x': 2rem,                  // Button horizontal padding (generous)
-        'btn-padding-y-sm': .5rem,              // Small button vertical padding
-        'btn-padding-x-sm': 1.5rem,             // Small button horizontal padding
-        'btn-padding-y-lg': 1rem,               // Large button vertical padding
-        'btn-padding-x-lg': 2.5rem,             // Large button horizontal padding
-        'btn-border-radius': 6px,            // Moderate rounding (modern but not pill)
-        'btn-border-radius-sm': 4px,       // Small button rounding
-        'btn-border-radius-lg': 8px,       // Large button rounding
-        'btn-border-width': 1px,                // Button border thickness
-        'btn-font-size': 1rem,                  // Button text size
-        'btn-font-weight': 600,                 // Semi-bold button text
-        'btn-primary-flat': false,              // Use gradient/shadow effects
-        'btn-secondary-flat': true,             // Flat secondary buttons
-        'btn-secondary-outline': true,          // Outline secondary buttons
-        
-        // === INPUT FIELDS ===
-        'input-padding-y': .75rem,              // Input vertical padding
-        'input-padding-y-sm': .5rem,            // Small input vertical padding
-        'input-padding-y-lg': 1rem,             // Large input vertical padding
-        'input-border-radius': 0.5rem,          // Input corner rounding
-        'input-border-radius-sm': 0.375rem,     // Small input rounding
-        'input-border-radius-lg': 0.625rem,     // Large input rounding
-        
-        // === FOOTER ===
-        'footer-template': 'default',           // Standard footer layout
-        'footer-scrolltop': true,               // Show scroll-to-top button
-        
-        // === LINKS ===
-        'link-underline': 'hover',              // Underline on hover only
-        
-        // === LAYOUT ===
-        //'layout': 'full_width',                 // Full width layout for landing page
-        //'menu-border-radius': 0.375rem,        // Menu corner rounding
-    ),
+        (
+          // === CORE CONFIGURATION ===
+                'color-palettes-name': 'redeem',
+          // === TYPOGRAPHY ===
+                'font': 'Inter', // Clean, modern font matching Figma
+                'headings-font': 'Inter', // Consistent font family
+                'navbar-font': 'Inter', // Navigation font
+                'buttons-font': 'Inter', // Button text font
+                'headings-line-height': 1.2, // Tight line height for headings
+          // === HEADER & NAVIGATION ===
+                'header-template': 'default', // Standard header layout
+                'header-font-size': 1rem, // Navigation text size
+                'header-links-style': 'default', // Clean link styling
+                'logo-height': 2.5rem, // Logo size
+                'fixed-logo-height': 2rem, // Fixed header logo size
+          // === BUTTONS ===
+                'btn-padding-y': 1rem, // Button vertical padding
+                'btn-padding-x': 2rem, // Button horizontal padding (generous)
+                'btn-padding-y-sm': .5rem, // Small button vertical padding
+                'btn-padding-x-sm': 1.5rem, // Small button horizontal padding
+                'btn-padding-y-lg': 1rem, // Large button vertical padding
+                'btn-padding-x-lg': 2.5rem, // Large button horizontal padding
+                'btn-border-radius': 6px, // Moderate rounding (modern but not pill)
+                'btn-border-radius-sm': 4px, // Small button rounding
+                'btn-border-radius-lg': 8px, // Large button rounding
+                'btn-border-width': 1px, // Button border thickness
+                'btn-font-size': 1rem, // Button text size
+                'btn-font-weight': 600, // Semi-bold button text
+                'btn-primary-flat': false, // Use gradient/shadow effects
+                'btn-secondary-flat': false, // Flat secondary buttons
+                'btn-secondary-outline': false, // Outline secondary buttons
+          // === INPUT FIELDS ===
+                'input-padding-y': .75rem, // Input vertical padding
+                'input-padding-y-sm': .5rem, // Small input vertical padding
+                'input-padding-y-lg': 1rem, // Large input vertical padding
+                'input-border-radius': 0.5rem, // Input corner rounding
+                'input-border-radius-sm': 0.375rem, // Small input rounding
+                'input-border-radius-lg': 0.625rem, // Large input rounding
+          // === FOOTER ===
+                'footer-template': 'default', // Standard footer layout
+                'footer-scrolltop': true, // Show scroll-to-top button
+          // === LINKS ===
+                'link-underline': 'hover', // Underline on hover only
+          // === LAYOUT ===
+          //'layout': 'full_width',                 // Full width layout for landing page
+          //'menu-border-radius': 0.375rem,        // Menu corner rounding
+        ),
 );
 
 // ===================================================================
@@ -76,17 +69,16 @@ $o-website-values-palettes: (
 // ===================================================================
 
 $o-color-palettes: map-merge($o-color-palettes, (
-    'redeem': (
-        'o-color-1': #124F81,  // Primary brand blue (extracted from design)
-        'o-color-2': #B1025D,  // Secondary coral/pink (from mobile mockups)
-        'o-color-3': #f8fafc,  // Light gray backgrounds (section alternation)
-        'o-color-4': #ffffff,  // Pure white (content cards, main background)
-        'o-color-5': #1e293b,  // Dark slate (body text, headings)
-
-        'menu': 1,
-        'footer': 4,
-        'copyright': 4,
-    ),
+        'redeem': (
+                'o-color-1': #124F81, // Primary brand blue (extracted from design)
+                'o-color-2': #B1025D, // Secondary coral/pink (from mobile mockups)
+                'o-color-3': #f8fafc, // Light gray backgrounds (section alternation)
+                'o-color-4': #ffffff, // Pure white (content cards, main background)
+                'o-color-5': #1e293b, // Dark slate (body text, headings)
+                'menu': 1,
+                'footer': 4,
+                'copyright': 4,
+        ),
 ));
 
 // ===================================================================
@@ -100,17 +92,17 @@ $o-color-palettes: map-merge($o-color-palettes, (
 // ===================================================================
 
 $o-theme-font-configs: map-merge($o-theme-font-configs, (
-    'Inter': (
-        'family': ('Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif),
-        'url': 'Inter:300,400,500,600,700&display=swap',
-        'properties': (
-            'base': (
-                'font-size-base': 1rem,         // 16px base font size
-                'header-font-size': 1rem,       // Header font size
-                'line-height-base': 1.6,        // Comfortable line height
-            ),
-        )
-    ),
+        'Inter': (
+                'family': ('Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif),
+                'url': 'Inter:300,400,500,600,700&display=swap',
+                'properties': (
+                        'base': (
+                                'font-size-base': 1rem, // 16px base font size
+                                'header-font-size': 1rem, // Header font size
+                                'line-height-base': 1.6, // Comfortable line height
+                        ),
+                )
+        ),
 ));
 
 // ===================================================================
@@ -118,35 +110,35 @@ $o-theme-font-configs: map-merge($o-theme-font-configs, (
 // ===================================================================
 
 // Define heading sizes for the landing page
-$o-theme-h1-font-size-multiplier: (56 / 16);   // ~4rem - Large hero text
-$o-theme-h2-font-size-multiplier: (48 / 16);   // ~3rem - Section headers
-$o-theme-h3-font-size-multiplier: (32 / 16);   // ~2rem - Sub-section headers
-$o-theme-h4-font-size-multiplier: (29 / 16);   // ~1.5rem - Feature titles
-$o-theme-h5-font-size-multiplier: (24 / 16);   // ~1.25rem - Small headers
-$o-theme-h6-font-size-multiplier: (18 / 16);   // ~1.125rem - Captions
+$o-theme-h1-font-size-multiplier: (56 / 16); // ~4rem - Large hero text
+$o-theme-h2-font-size-multiplier: (48 / 16); // ~3rem - Section headers
+$o-theme-h3-font-size-multiplier: (32 / 16); // ~2rem - Sub-section headers
+$o-theme-h4-font-size-multiplier: (29 / 16); // ~1.5rem - Feature titles
+$o-theme-h5-font-size-multiplier: (24 / 16); // ~1.25rem - Small headers
+$o-theme-h6-font-size-multiplier: (18 / 16); // ~1.125rem - Captions
 
 // Font weights
-$o-theme-headings-font-weight: 600;             // Semi-bold headings
-$o-theme-font-weight-normal: 400;              // Regular body text
-$o-theme-font-weight-medium: 500;              // Medium weight text
-$o-theme-font-weight-semibold: 600;            // Semi-bold text
-$o-theme-font-weight-bold: 700;                // Bold text
+$o-theme-headings-font-weight: 600; // Semi-bold headings
+$o-theme-font-weight-normal: 400; // Regular body text
+$o-theme-font-weight-medium: 500; // Medium weight text
+$o-theme-font-weight-semibold: 600; // Semi-bold text
+$o-theme-font-weight-bold: 700; // Bold text
 
 // ===================================================================
 // Custom Variables for Landing Page Sections
 // ===================================================================
 
 // Section spacing
-$redeem-section-padding-y: 5rem;               // Generous vertical section padding
-$redeem-section-padding-y-sm: 3rem;            // Mobile section padding
+$redeem-section-padding-y: 5rem; // Generous vertical section padding
+$redeem-section-padding-y-sm: 3rem; // Mobile section padding
 
 // Hero section
-$redeem-hero-min-height: 100vh;                // Full viewport height hero
-$redeem-hero-padding-top: 8rem;                // Top padding for hero content
+$redeem-hero-min-height: 100vh; // Full viewport height hero
+$redeem-hero-padding-top: 8rem; // Top padding for hero content
 
 // Feature grid
-$redeem-feature-card-padding: 2.5rem;          // Feature card internal padding
-$redeem-feature-icon-size: 4rem;               // Feature icon size
+$redeem-feature-card-padding: 2.5rem; // Feature card internal padding
+$redeem-feature-icon-size: 4rem; // Feature icon size
 
 // CTA buttons specific styling
 $redeem-cta-btn-shadow: 0 4px 14px 0 rgba(37, 99, 235, 0.25); // Primary button shadow
@@ -157,7 +149,7 @@ $redeem-cta-btn-hover-shadow: 0 8px 25px 0 rgba(37, 99, 235, 0.35); // Hover sha
 // ===================================================================
 
 // Cards
-$redeem-card-border-radius: 1rem;              // Card border radius
+$redeem-card-border-radius: 1rem; // Card border radius
 $redeem-card-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 $redeem-card-hover-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15), 0 10px 20px -5px rgba(0, 0, 0, 0.08);
 
