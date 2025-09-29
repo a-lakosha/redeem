@@ -127,6 +127,10 @@
   }
 
   @media (max-width: 999px) {
+    .text_applicant {
+      background: red !important;
+      max-width: 100% !important;
+    }
     .carousel-nav {
       top: auto !important;
       bottom: 7px !important;
@@ -146,50 +150,7 @@
 
 
   // Tablet responsive styles
-  @media (max-width: 768px) {
-
-
-    .vertical-carousel {
-      padding: 2rem 0;
-
-    }
-
-    //.vertical-carousel-item {
-    //  padding: 1rem 1.5rem;
-    //
-    //  // Only 3 items visible on tablet
-    //  &.pos-minus-1 {
-    //    opacity: 0.3;
-    //    transform: translateY(-110px);
-    //  }
-    //
-    //  &.pos-1 {
-    //    opacity: 0.3;
-    //    transform: translateY(110px);
-    //  }
-    //
-    //  // Hidden items
-    //  &.pos-minus-2 {
-    //    opacity: 0;
-    //    transform: translateY(-250px);
-    //  }
-    //
-    //  &.pos-2 {
-    //    opacity: 0;
-    //    transform: translateY(250px);
-    //  }
-    //
-    //  &.pos-minus-3 {
-    //    opacity: 0;
-    //    transform: translateY(-350px);
-    //  }
-    //
-    //  &.pos-3 {
-    //    opacity: 0;
-    //    transform: translateY(350px);
-    //  }
-    //
-    //}
+  @media (max-width: 999px) {
 
     .carousel-nav {
       position: absolute;
@@ -203,6 +164,7 @@
 
   // Mobile responsive styles
   @media (max-width: 576px) {
+
     .vertical-carousel {
       min-height: 700px;
       padding: 1.5rem 0;
@@ -322,7 +284,6 @@ html {
 
 .mobile_response {
   animation: upDown 2s infinite ease-in-out;
-
 }
 
 @media (max-width: 1200px) {
@@ -330,13 +291,16 @@ html {
     min-height: auto !important;
     height: auto !important;
   }
+
   .box_feature {
     margin-top: 30px;
     width: 100% !important;
   }
 }
 
+
 @media (max-width: 425px) {
+
   .background_mobile {
     min-height: 347px !important;
     max-width: 347px !important;
@@ -352,5 +316,27 @@ html {
   .s_accordion .accordion-button:after {
     content: '' !important;
     display: none !important;
+  }
+}
+
+.box_feature {
+  h5 {
+    max-width: 250px !important;
+  }
+
+  p {
+    max-width: 250px !important;
+  }
+}
+
+@media (max-width: 999px) {
+  .box_feature {
+    h5 {
+      max-width: 100% !important;
+    }
+
+    p {
+      max-width: 100% !important;
+    }
   }
 }
