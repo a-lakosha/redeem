@@ -27,8 +27,8 @@
     .step-number {
       font-size: 0.875rem;
       font-weight: 600;
-      color: #666;
-      margin-bottom: 0.75rem;
+      color: black;
+      padding-top: 30px;
       transition: color 0.3s ease;
     }
 
@@ -179,6 +179,8 @@
       right: auto;
     }
   }
+
+
   // Tablet responsive styles
   @media (max-width: 768px) {
 
@@ -364,6 +366,11 @@ html {
 
 .content > *:nth-child(5) {
   animation-delay: 1.5s;
+}
+
+.mobile_response {
+  animation: upDown 2s infinite ease-in-out;
+
 }
 
 @media (max-width: 1200px) {

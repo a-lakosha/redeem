@@ -8,9 +8,9 @@
                 active="True"
         >
             <xpath expr="//div[@id='wrap']" position="replace">
-                <div id="wrap" class="oe_structure overflow-hidden oe_empty home">
+                <div id="wrap" class="oe_structure   oe_empty home">
                     <!-- Redeem Digital Wallet Hero Section -->
-                    <section class="redeem-hero hero_section position-relative overflow-hidden pt104 pb104">
+                    <section class="redeem-hero hero_section position-relative  pt104 pb104">
                         <!-- Background Pattern -->
                         <div class="position-absolute w-100 h-100 top-0 start-0"
                              style="background-image: url('/theme_redeem/static/src/img/hero-bg-pattern.svg'); background-size: cover; background-position: top;"/>
@@ -55,15 +55,17 @@
                                         </div>
 
                                         <!-- Main Heading -->
-                                        <h1 style="" class="display-3 fw-bold mb-4 text-capitalize text-primary">
-                                            One app for all your Payments
+                                        <h1 style="font-size: 56px;"
+                                            class="display-3 fw-bold mb-4 text-capitalize text-primary">
+                                            The Digital Wallet That Delivers Hope
                                         </h1>
 
                                         <!-- Description -->
                                         <p style="max-width: 567px;" class="mb-5 text-primary">
-                                            Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor
-                                            incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                            nostrum exercitationem ullam corporis suscipit laboriosam.
+                                            The Redeem App by Taqat, in partnership with Qatar Charity, transforms aid
+                                            distribution. More than a wallet, it's a direct line to hope, forging a
+                                            seamless connection between administrators, individuals, and merchants for
+                                            total transparency and efficiency.
                                         </p>
 
                                         <!-- CTA Buttons -->
@@ -90,80 +92,118 @@
                     </section>
                     <section id="features" class="features-section py-lg-5 my-lg-5">
                         <div class="container text-center mb-lg-5">
-                            <div class="row py-4 my-5">
+                            <div class="row  py-4 my-5">
                                 <!-- Title -->
-                                <div class="title mb-5 pb-lg-5 pb-5">
-                                    <h4 class="fw-bold mb-3 text-primary ">Customized Features to Drive Your Success
+                                <div class="title mb-5  pb-lg-5 pb-5">
+                                    <h4 style="font-size: 32px;" class="fw-bolder mb-3 text-primary ">A Seamless
+                                        Ecosystem for Digital Funds
+                                        Delivery
                                     </h4>
-                                    <p style="max-width: 480px;" class="text-muted mx-auto text-primary mb-5">
-                                        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor
-                                        incidunt ut labore et dolore magna aliqua.
+                                    <p style="max-width: 826px;" class="text-muted mx-auto text-primary mb-5">
+                                        Manage, distribute, and track funds with our integrated platform designed for
+                                        organizations, beneficiaries, and merchants.
                                     </p>
                                 </div>
                                 <!-- Wrapper -->
-                                <div class="position-relative mt-lg-5">
-                                    <!-- Center Phone -->
-                                    <div class="position-relative   background_mobile rounded-circle text-center m-auto pt-5"
-                                         style="background-color: #B1025D; min-height: 500px;max-width:500px"/>
-                                    <div class="center-phone bg-danger">
-                                    </div>
-                                    <img style="  min-height: 600px; max-width: 593px; position: absolute;  top: -62px; left: 50%;
-                    transform: translateX(-50%);"
-                                         src="/theme_redeem/static/src/images/home/mopile.webp"
-                                         alt="App"
-                                         class="img-fluid w-100 mobile_response   "
-                                    />
-                                    <!-- Feature Boxes -->
-                                    <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: -42px;
-                    left: 70px;" class="p-4 position-xl-absolute box_feature rounded-5">
-                                        <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
-                                        <p class="text-primary ">Dual Mobile Applications</p>
-                                    </div>
-                                    <!-- Feature Boxes -->
-                                    <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: 172px;
-                    left: 0;" class="p-4 box_feature position-xl-absolute rounded-5">
-                                        <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
-                                        <p class="text-primary ">Dual Mobile Applications</p>
-                                    </div>
-                                    <!-- Feature Boxes -->
-                                    <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;left: 61px;
-                    bottom: 0;
-                    " class="p-4 box_feature  position-xl-absolute rounded-5">
-                                        <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
-                                        <p class="text-primary ">Dual Mobile Applications</p>
-                                    </div>
-                                    <!-- Feature Boxes -->
-                                    <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: -42px;
-                    right: 70px;" class="p-4 position-xl-absolute box_feature rounded-5">
-                                        <h5 class="text-primary box_feature pb-1">Dual Mobile Applications</h5>
-                                        <p class="text-primary ">Dual Mobile Applications</p>
-                                    </div>
-                                    <!-- Feature Boxes -->
-                                    <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: 172px;
-                                   right: 0;" class="p-4 box_feature position-xl-absolute  rounded-5">
-                                        <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
-                                        <p class="text-primary ">Dual Mobile Applications</p>
-                                    </div>
-                                    <!-- Feature Boxes -->
-                                    <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;right: 61px;
-                                     bottom: 0;
-                                    " class="p-4  box_feature position-xl-absolute rounded-5">
-                                        <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
-                                        <p class="text-primary ">Dual Mobile Applications</p>
+                                <div class="digital_wallet">
+                                    <div class="position-relative   h-100  mt-lg-5">
+                                        <img style="    height: 1056px !important; top: -191px !important;"
+                                             class="position-absolute w-100  top-0 end-0 start-0 z-index-0"
+                                             src="/theme_redeem/static/src/images/home/circles.svg" alt=""/>
+                                        <!-- Center Phone -->
+                                        <div class="position-relative   background_mobile rounded-circle text-center m-auto pt-5"
+                                             style="background-color: #B1025D; min-height: 500px;max-width:500px">
+                                            <img style="  min-height: 600px; max-width: 593px; position: absolute;  top: -62px; left:0;
+                                        transform: translateX(-50%);"
+                                                 src="/theme_redeem/static/src/images/home/mopile.webp"
+                                                 alt="App"
+                                                 class="img-fluid w-100 mobile_response   "
+                                            />
+                                        </div>
+
+                                        <!-- Feature Boxes -->
+                                        <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: -42px;left: 70px;"
+                                             class="p-4 text-start position-xl-absolute box_feature rounded-3">
+                                            <h5 style="max-width:250px" class="text-primary pb-1">Dual Mobile
+                                                Applications
+                                            </h5>
+                                            <p style="max-width:250px" class="text-primary ">Simple apps for
+                                                beneficiaries to pay and merchants
+                                                to receive.
+                                            </p>
+                                        </div>
+                                        <!-- Feature Boxes -->
+                                        <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: 172px;left: 0;"
+                                             class="p-4 box_feature text-start position-xl-absolute rounded-3">
+                                            <h5 style="max-width:250px" class="text-primary pb-1">Advanced Reporting
+                                                &amp; Analytics
+                                            </h5>
+                                            <p style="max-width:250px" class="text-primary ">Track funds in real-time,
+                                                get reports, and ensure total accountability.
+                                            </p>
+                                        </div>
+                                        <!-- Feature Boxes -->
+                                        <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;left: 61px;bottom: -72px;"
+                                             class="p-4 box_feature  position-xl-absolute rounded-3">
+                                            <h5 style="max-width:250px" class="text-primary pb-1">Automated Fund
+                                                Management
+                                            </h5>
+                                            <p class="text-primary " style="max-width:250px">Automate transfers and
+                                                merchant payments to reduce
+                                                your administrative burdens.
+                                            </p>
+                                        </div>
+                                        <!-- Feature Boxes -->
+                                        <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: -42px;right: 70px;"
+                                             class="p-4 text-start position-xl-absolute box_feature my-3">
+                                            <h5 style="max-width:250px" class="text-primary  box_feature pb-1">
+                                                Dedicated Organization Portal
+                                            </h5>
+                                            <p style="max-width:250px" class="text-primary ">Manage your organization
+                                                aids from one central,
+                                                secure web dashboard.
+                                            </p>
+                                        </div>
+                                        <!-- Feature Boxes -->
+                                        <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: 200px;
+                                   right: 0;" class="p-4 text-start box_feature  position-xl-absolute  rounded-3">
+                                            <h5 style="max-width:250px" class="text-primary pb-1">Secure Onboarding
+                                                &amp; Verification
+                                            </h5>
+                                            <p style="max-width:250px" class="text-primary ">Funds are only spent within
+                                                our secure, verified
+                                                partner network.
+                                            </p>
+                                        </div>
+                                        <!-- Feature Boxes -->
+                                        <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;right: 61px;
+                                     bottom: -66px;
+                                    " class="p-4  text-start box_feature position-xl-absolute rounded-3">
+                                            <h5 style="max-width:250px" class="text-primary pb-1">Closed-Loop Financial
+                                                System
+                                            </h5>
+                                            <p style="max-width:250px" class="text-primary ">Funds are only spent at
+                                                authorized merchants,
+                                                completely eliminating fraud.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section class="pt104 pb104">
+                    <section id="how-it-works" class=" mt-lg-4 mt-lg-5 pt-lg-5 position-relative pb104">
                         <div class="container">
-                            <h4 class="fw-bold text-center pb-5  mb-lg-5 title">How It Works</h4>
-                            <div class="row">
-                                <div class="col-lg-6 position-relative">
-                                    <img class="img-fluid  h-100 w-100"
+                            <h4 class="fw-bold text-center pb-3  mb-lg-5 title">How It Works</h4>
+                            <div class="row ">
+                                <div class="col-lg-6  p-0">
+                                    <img style="    max-width: 800px;left: -102px;top: 0;"
+                                         class="img-fluid h-auto position-lg-absolute  h-100 w-100"
                                          src="\theme_redeem\static\src\img\home-vslider.webp"
                                          alt=""/>
-                                    <svg class="position-absolute start-0 top-0 z-n1" width="100%" height="100%"
+                                    <svg style="    max-width: 800px;left: -102px;"
+                                         class="position-absolute d-lg-block d-none start-0 top-0 z-n1" width="100%"
+                                         height="100%"
                                          viewBox="0 0 752 742" fill="none"
                                          xmlns="http://www.w3.org/2000/svg">
                                         <g filter="url(#filter0_f_109_5497)">
@@ -193,11 +233,12 @@
                                      data-snippet="s_vertical_carousel" data-js="VerticalCarousel">
                                     <div class="h-100">
                                         <div class="vertical-carousel">
-                                            <div class="vertical-carousel-item active" data-step="1"
+                                            <div class="vertical-carousel-item   active" data-step="1"
                                                  data-js="VerticalCarouselItem">
-                                                <div class="step-number">01</div>
+                                                <div style="font-size: 24px;" class="step-number pt-4 text-dark">01
+                                                </div>
                                                 <h3 class="step-title">Register &amp; Get Verified</h3>
-                                                <p class="step-description">Your organization signs up on the Taqat
+                                                <p class="step-description ">Your organization signs up on the Taqat
                                                     platform.
                                                     Our
                                                     team verifies your documents to establish a secure and trusted
@@ -298,8 +339,9 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header ps-0 accordion-button fw-bold fs-4 gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header fw-bolder ps-0 accordion-button fw-bold fs-4 gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
+                                                                style="font-size: 28px !important;"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_5"
                                                                 aria-controls="myCollapseTab814744_5">
@@ -324,11 +366,12 @@
                                                             </svg>
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
-                                                             data-bs-parent="#myCollapse" role="region"
+                                                             role="region"
                                                              id="myCollapseTab814744_5"
                                                              aria-labelledby="accordion-button814744_1">
-                                                            <div class="accordion-body">
-                                                                <p>Move beyond handing out goods and give beneficiaries
+                                                            <div class="accordion-body ">
+                                                                <p class="ps-lg-4">Move beyond handing out goods and
+                                                                    give beneficiaries
                                                                     the freedom to choose what they truly need.
                                                                 </p>
                                                             </div>
@@ -338,7 +381,8 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                style="font-size: 28px !important;"
+                                                                class="accordion-header fw-bolder ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_2"
@@ -365,11 +409,12 @@
                                                             </svg>
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
-                                                             data-bs-parent="#myCollapse" role="region"
+                                                             role="region"
                                                              id="myCollapseTab814744_2"
                                                              aria-labelledby="accordion-button814744_1">
                                                             <div class="accordion-body">
-                                                                <p>By partnering with local merchants, you ensure that
+                                                                <p class=" ps-lg-4">By partnering with local merchants,
+                                                                    you ensure that
                                                                     aid money directly supports and strengthens the
                                                                     communities you serve.
                                                                 </p>
@@ -380,7 +425,8 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                style="font-size: 28px !important;"
+                                                                class="accordion-header fw-bolder ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_3"
@@ -406,11 +452,12 @@
                                                             </svg>
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
-                                                             data-bs-parent="#myCollapse" role="region"
+                                                             role="region"
                                                              id="myCollapseTab814744_3"
                                                              aria-labelledby="accordion-button814744_1">
-                                                            <div class="accordion-body">
-                                                                <p>Eliminate the logistical challenges and costs
+                                                            <div class="accordion-body ">
+                                                                <p class="ps-lg-4">Eliminate the logistical challenges
+                                                                    and costs
                                                                     associated with procuring, storing, and distributing
                                                                     physical goods or cash.
                                                                 </p>
@@ -421,7 +468,8 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                style="font-size: 28px !important;"
+                                                                class="accordion-header fw-bolder ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_4"
@@ -447,11 +495,12 @@
                                                             </svg>
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
-                                                             data-bs-parent="#myCollapse" role="region"
+                                                             role="region"
                                                              id="myCollapseTab814744_4"
                                                              aria-labelledby="accordion-button814744_1">
-                                                            <div class="accordion-body">
-                                                                <p>Whether you support ten beneficiaries or ten
+                                                            <div class="accordion-body ">
+                                                                <p class="ps-lg-4">Whether you support ten beneficiaries
+                                                                    or ten
                                                                     thousand, our platform is built to scale with the
                                                                     size and complexity of your mission.
                                                                 </p>
@@ -472,8 +521,8 @@
                             </div>
                         </div>
                     </section>
-                    <section id="application" class="py-5 overflow-hidden mb-lg-5">
-                        <div class="container">
+                    <section id="application" class="py-5 mt-lg-4  mb-lg-5">
+                        <div class="container pt-lg-5">
                             <div class="row text-center text-lg-start">
                                 <div class="content      text-center m-auto">
                                     <h4 class="pb-2 fs-4 fw-bold text-primary">Ready to Transform Your Aid Distribution?
@@ -489,11 +538,13 @@
 
                                 <div class="col-lg-6   mb-3  ">
                                     <div style="background: rgba(18, 79, 129, 0.04); max-width: 588px"
-                                         class="box rounded-5 p-4">
+                                         class="box rounded-3 p-4">
                                         <h4 class="pb-2 fw-bold text-primary">For Merchant</h4>
                                         <h5 class="pb-3">Manage donations and payments easily</h5>
                                         <div class="links row align-items-center   m-auto    gap-4 align-items-center  ">
-                                            <a href="/" style=" padding: 12px 26px;"
+                                            <a target="_blank"
+                                               href="https://apps.apple.com/app/id6747705594"
+                                               style=" padding: 12px 26px;"
                                                class="btn rounded-4 w-100 col-lg    w-lg-auto  text-start  h-100 align-items-center btn-primary d-flex gap-3  rounded-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="26"
                                                      viewBox="0 0 22 26" fill="none">
@@ -507,7 +558,9 @@
                                                     <span class="text-white d-block   fw-bold">App Store</span>
                                                 </div>
                                             </a>
-                                            <a href="/" style="  padding: 12px 26px;"
+                                            <a target="_blank"
+                                               href="https://play.google.com/store/apps/details?id=com.taqat.merchant"
+                                               style="  padding: 12px 26px;"
                                                class="btn  col-lg w-100   w-lg-auto   h-100 align-items-center btn-outline-primary d-flex gap-3  rounded-4">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24"
                                                      viewBox="0 0 21 24" fill="none">
@@ -561,16 +614,18 @@
                                                 </span>
                                             </a>
                                         </div>
+
                                     </div>
                                 </div>
                                 <div class="col-lg-6   mb-3 ">
                                     <div style="background: rgba(177, 2, 93, 0.04); max-width: 588px;"
-                                         class="box rounded-5 p-4">
+                                         class="box rounded-3 p-4">
                                         <h4 class="pb-2  text-secondary fw-bold  ">For Beneficiary
                                         </h4>
                                         <h5 class="pb-3">Receive and manage support securely</h5>
                                         <div class="links flex-wrap row align-items-center   m-auto    gap-4 align-items-center  ">
-                                            <a href="/" style=" padding: 12px 26px;"
+                                            <a href="https://apps.apple.com/app/id6747705594"
+                                               style=" padding: 12px 26px;"
                                                class="btn rounded-4 col-lg w-100  h-auto  w-lg-auto  text-start  h-100 align-items-center btn-secondary d-flex gap-3  rounded-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="26"
                                                      viewBox="0 0 22 26" fill="none">
@@ -586,7 +641,9 @@
                                                     </span>
                                                 </div>
                                             </a>
-                                            <a href="/" style="  padding: 12px 26px;"
+                                            <a target="_blank"
+                                               href="https://play.google.com/store/apps/details?id=com.taqat"
+                                               style="  padding: 12px 26px;"
                                                class="btn col-lg  w-100  h-auto w-lg-auto   h-100 align-items-center btn-outline-secondary d-flex gap-3  rounded-4">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24"
                                                      viewBox="0 0 21 24" fill="none">
