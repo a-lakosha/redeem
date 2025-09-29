@@ -24,30 +24,6 @@
     text-align: left;
     pointer-events: none;
 
-    .step-number {
-      font-size: 0.875rem;
-      font-weight: 600;
-      color: black;
-      padding-top: 30px;
-      transition: color 0.3s ease;
-    }
-
-    .step-title {
-      font-size: 1.5rem;
-      font-weight: 700;
-      color: #1a1a1a;
-      margin-bottom: 0.75rem;
-      line-height: 1.3;
-      transition: all 0.3s ease;
-    }
-
-    .step-description {
-      color: #666;
-      line-height: 1.6;
-      margin-bottom: 0;
-      transition: color 0.3s ease;
-    }
-
     // Active item (center position)
     &.active {
       opacity: 1;
@@ -55,24 +31,12 @@
       z-index: 10;
       pointer-events: auto;
 
-      .step-number {
-        color: #B1025D;
-      }
-
-      .step-title {
-        color: #1a1a1a;
-        transform: scale(1.05);
-      }
-
-      .step-description {
-        color: #333;
-      }
     }
 
     // Position -1 (previous item, above active) - VISIBLE
     &.pos-minus-1 {
       opacity: 0.3;
-      transform: translateY(-140px);
+      transform: translateY(-160px);
       z-index: 5;
       pointer-events: none;
     }
@@ -80,7 +44,7 @@
     // Position +1 (next item, below active) - VISIBLE  
     &.pos-1 {
       opacity: 0.3;
-      transform: translateY(140px);
+      transform: translateY(160px);
       z-index: 5;
       pointer-events: none;
     }
@@ -186,50 +150,46 @@
 
 
     .vertical-carousel {
-      min-height: 500px;
       padding: 2rem 0;
 
     }
 
-    .vertical-carousel-item {
-      padding: 1rem 1.5rem;
-
-      // Only 3 items visible on tablet
-      &.pos-minus-1 {
-        opacity: 0.3;
-        transform: translateY(-110px);
-      }
-
-      &.pos-1 {
-        opacity: 0.3;
-        transform: translateY(110px);
-      }
-
-      // Hidden items
-      &.pos-minus-2 {
-        opacity: 0;
-        transform: translateY(-250px);
-      }
-
-      &.pos-2 {
-        opacity: 0;
-        transform: translateY(250px);
-      }
-
-      &.pos-minus-3 {
-        opacity: 0;
-        transform: translateY(-350px);
-      }
-
-      &.pos-3 {
-        opacity: 0;
-        transform: translateY(350px);
-      }
-
-      .step-title {
-        font-size: 1.25rem;
-      }
-    }
+    //.vertical-carousel-item {
+    //  padding: 1rem 1.5rem;
+    //
+    //  // Only 3 items visible on tablet
+    //  &.pos-minus-1 {
+    //    opacity: 0.3;
+    //    transform: translateY(-110px);
+    //  }
+    //
+    //  &.pos-1 {
+    //    opacity: 0.3;
+    //    transform: translateY(110px);
+    //  }
+    //
+    //  // Hidden items
+    //  &.pos-minus-2 {
+    //    opacity: 0;
+    //    transform: translateY(-250px);
+    //  }
+    //
+    //  &.pos-2 {
+    //    opacity: 0;
+    //    transform: translateY(250px);
+    //  }
+    //
+    //  &.pos-minus-3 {
+    //    opacity: 0;
+    //    transform: translateY(-350px);
+    //  }
+    //
+    //  &.pos-3 {
+    //    opacity: 0;
+    //    transform: translateY(350px);
+    //  }
+    //
+    //}
 
     .carousel-nav {
       position: absolute;
@@ -244,7 +204,7 @@
   // Mobile responsive styles
   @media (max-width: 576px) {
     .vertical-carousel {
-      min-height: 400px;
+      min-height: 700px;
       padding: 1.5rem 0;
     }
 
@@ -254,41 +214,33 @@
       // Only 3 items visible on mobile - closer spacing
       &.pos-minus-1 {
         opacity: 0.3;
-        transform: translateY(-80px);
+        transform: translateY(-200px);
       }
 
       &.pos-1 {
         opacity: 0.3;
-        transform: translateY(80px);
+        transform: translateY(200px);
       }
 
       // Hidden items
       &.pos-minus-2 {
         opacity: 0;
-        transform: translateY(-200px);
+        transform: translateY(-300px);
       }
 
       &.pos-2 {
         opacity: 0;
-        transform: translateY(200px);
+        transform: translateY(300px);
       }
 
       &.pos-minus-3 {
         opacity: 0;
-        transform: translateY(-300px);
+        transform: translateY(-400px);
       }
 
       &.pos-3 {
         opacity: 0;
-        transform: translateY(300px);
-      }
-
-      .step-title {
-        font-size: 1.1rem;
-      }
-
-      .step-description {
-        font-size: 0.9rem;
+        transform: translateY(400px);
       }
     }
   }

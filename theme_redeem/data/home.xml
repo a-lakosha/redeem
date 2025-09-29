@@ -235,10 +235,10 @@
                                         <div class="vertical-carousel">
                                             <div class="vertical-carousel-item   active" data-step="1"
                                                  data-js="VerticalCarouselItem">
-                                                <div style="font-size: 24px;" class="step-number pt-4 text-dark">01
-                                                </div>
-                                                <h3 class="step-title">Register &amp; Get Verified</h3>
-                                                <p class="step-description ">Your organization signs up on the Taqat
+                                                <span class="h5">01
+                                                </span>
+                                                <h5 class="">Register &amp; Get Verified</h5>
+                                                <p class="text-muted">Your organization signs up on the Taqat
                                                     platform.
                                                     Our
                                                     team verifies your documents to establish a secure and trusted
@@ -248,9 +248,9 @@
 
                                             <div class="vertical-carousel-item" data-step="2"
                                                  data-js="VerticalCarouselItem">
-                                                <div class="step-number">02</div>
-                                                <h3 class="step-title">Onboard Your Beneficiaries</h3>
-                                                <p class="step-description">Easily upload a list of your beneficiaries
+                                                <span class="h5">02</span>
+                                                <h5 class="">Onboard Your Beneficiaries</h5>
+                                                <p class="text-muted">Easily upload a list of your beneficiaries
                                                     and
                                                     define
                                                     the balance to be allocated to each person through your dedicated
@@ -260,9 +260,9 @@
 
                                             <div class="vertical-carousel-item" data-step="3"
                                                  data-js="VerticalCarouselItem">
-                                                <div class="step-number">03</div>
-                                                <h3 class="step-title">Monitor, Track, Analyze &amp; Report</h3>
-                                                <p class="step-description">Log in to your portal at any time to see a
+                                                <div class="h5">03</div>
+                                                <h5 class="step-title">Monitor, Track, Analyze &amp; Report</h5>
+                                                <p class="text-muted">Log in to your portal at any time to see a
                                                     complete
                                                     overview of all transactions. Monitor your program's impact with
                                                     powerful,
@@ -272,9 +272,9 @@
 
                                             <div class="vertical-carousel-item" data-step="4"
                                                  data-js="VerticalCarouselItem">
-                                                <div class="step-number">04</div>
-                                                <h3 class="step-title">Automated Fund Management</h3>
-                                                <p class="step-description">Our system automatically manages fund
+                                                <span class="h5">04</span>
+                                                <h5 class="">Automated Fund Management</h5>
+                                                <p class="text-muted">Our system automatically manages fund
                                                     distribution
                                                     and
                                                     ensures secure transactions while providing complete transparency
@@ -286,9 +286,9 @@
 
                                             <div class="vertical-carousel-item" data-step="5"
                                                  data-js="VerticalCarouselItem">
-                                                <div class="step-number">05</div>
-                                                <h3 class="step-title">24/7 Support &amp; Security</h3>
-                                                <p class="step-description">We provide round-the-clock support through
+                                                <span class="h5">05</span>
+                                                <h5 class="">24/7 Support &amp; Security</h5>
+                                                <p class="text-muted">We provide round-the-clock support through
                                                     multiple
                                                     channels and ensure your data is protected by advanced encryption
                                                     and
@@ -339,7 +339,7 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header fw-bolder ps-0 accordion-button fw-bold fs-4 gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header fw-bolder align-items-start ps-0 accordion-button fw-bold fs-4 gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 style="font-size: 28px !important;"
                                                                 id="accordion-button814744_1"
@@ -382,7 +382,7 @@
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
                                                                 style="font-size: 28px !important;"
-                                                                class="accordion-header fw-bolder ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header fw-bolder align-items-start ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_2"
@@ -426,7 +426,7 @@
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
                                                                 style="font-size: 28px !important;"
-                                                                class="accordion-header fw-bolder ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header fw-bolder align-items-start ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_3"
@@ -469,7 +469,7 @@
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
                                                                 style="font-size: 28px !important;"
-                                                                class="accordion-header fw-bolder ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header fw-bolder align-items-start ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_4"
