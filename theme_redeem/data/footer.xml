@@ -48,7 +48,26 @@
                             </li>
                         </ul>
                     </div>
-                    <p class="coopy-write text-center text-white mt-lg-5 mt-3 pt-3">Copyright © 2025 Taqat</p>
+                    <!-- social and copy right -->
+                    <div class="d-flex align-items-center  mt-lg-5 justify-content-between flex-column flex-lg-row">
+                        <div class="s_social_media text-start mt-3 mt-lg-0 pt-3  o_not_editable"
+                             data-snippet="s_social_media"
+                             data-name="Social Media" contenteditable="false">
+                            <a href="/website/social/facebook" class="s_social_media_facebook" target="_blank">
+                                <i class="fa fa-facebook rounded-circle shadow-sm o_editable_media"/>
+                            </a>
+                            <a href="/website/social/twitter" class="s_social_media_twitter" target="_blank">
+                                <i class="fa fa-twitter rounded-circle shadow-sm o_editable_media"/>
+                            </a>
+                            <a href="/website/social/instagram" class="s_social_media_instagram" target="_blank">
+                                <i class="fa fa-instagram rounded-circle shadow-sm o_editable_media"/>
+                            </a>
+                            <a href="/website/social/linkedin" class="s_social_media_linkedin" target="_blank">
+                                <i class="fa fa-linkedin rounded-circle shadow-sm o_editable_media"/>
+                            </a>
+                        </div>
+                        <p class="coopy-write text-center text-white pt-4   mt-lg-3 pt-3">Copyright © 2025 Taqat</p>
+                    </div>
                 </div>
             </footer>
         </xpath>
