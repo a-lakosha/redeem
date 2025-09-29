@@ -68,10 +68,11 @@
 
                                         <!-- CTA Buttons -->
                                         <div class="d-flex flex-wrap gap-3 align-items-center">
-                                            <a href="#" class="btn btn-outline-primary text-uppercase fw-medium">
+                                            <a href="#application"
+                                               class="btn btn-outline-primary text-uppercase fw-medium">
                                                 Get Started
                                             </a>
-                                            <a href="https://www.taqat.qa/"
+                                            <a target="_blank" href="https://www.taqat.qa/"
                                                class="btn btn-link text-decoration-none text-primary">
                                                 <span class="">Visit Taqat Website</span>
                                             </a>
@@ -80,79 +81,14 @@
                                 </div>
 
                                 <!-- Right Content - Mobile Mockups -->
-                                <div class="col-lg-6 col-md-5">
-                                    <img src="/theme_redeem/static/src/img/home_hero.webp" alt=""/>
+                                <div class="col-lg-6 col-md-5 mt-4">
+                                    <img class="w-100" src="/theme_redeem/static/src/img/home_hero.webp"
+                                         alt="mobile mockup"/>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <!--                    <div class="oe_structure oe_empty"/>-->
-                    <!--                     <section class="s_cover  o_cc o_cc1 pt-8 pb-8" data-name="Hero Section" style="min-height: 100vh;background:url('/theme_redeem/static/src/images/home/bac_hero.webp')">-->
-                    <!--                    <div class="container">-->
-                    <!--                        <div class="row align-items-center min-vh-100">-->
-                    <!--                            &lt;!&ndash; Hero Content &ndash;&gt;-->
-                    <!--                            <div class="col-lg-6 content pt-4 pt-lg-0 order-2 order-lg-1 col-md-12 mb-5 mb-lg-0">-->
-                    <!--                                <div class="pe-lg-4">-->
-                    <!--                                    &lt;!&ndash; Brand Logo &ndash;&gt;-->
-                    <!--                                    <div class="mb-4">-->
-                    <!--                                      <div style="width:fit-content;background: rgba(18, 79, 129, 0.06);" class=" p-2 rounded-5 justify-content-center  d-flex  ">-->
-                    <!--                                        <span class="d-inline-block "><svg width="32" height="16" viewBox="0 0 32 16" fill="none" xmlns="http://www.w3.org/2000/svg">-->
-                    <!--                                        <path d="M5.42163 10.0026C5.31658 9.54418 5.2098 9.29946 5.08407 9.14263C4.91874 8.92893 4.74651 8.86 3.99389 8.86H3.32049V13.3339C3.32049 14.0612 3.4066 14.1681 4.34523 14.2249V14.4886H1.41569V14.2249C2.32159 14.1681 2.4077 14.0681 2.4077 13.3339V8.86H1.83247C0.973069 8.86 0.768122 8.94789 0.635509 9.14263C0.509785 9.29946 0.423673 9.57004 0.297949 10.0026H0C0.0465007 9.40631 0.0930013 8.79795 0.111946 8.28955H0.323782C0.468451 8.52221 0.594175 8.52221 0.885235 8.52221H4.89118C5.16157 8.52221 5.25458 8.46534 5.40613 8.28955H5.61797C5.61797 8.71006 5.67136 9.41838 5.71786 9.97159L5.41991 10.0026H5.42163Z" fill="#124F81"/>-->
-                    <!--                                        <path d="M9.50476 14.4903V14.2266C10.1196 14.1456 10.2057 14.0629 10.0731 13.6923C9.93359 13.3287 9.7562 12.8703 9.54437 12.3429H7.42256C7.25722 12.7634 7.12461 13.1219 6.99889 13.4855C6.78705 14.0439 6.86627 14.1508 7.61373 14.2266V14.4903H5.43164V14.2266C6.07232 14.1318 6.21182 14.0698 6.56143 13.2546L8.63674 8.46699L8.98119 8.38599C9.61498 10.0111 10.2505 11.6432 10.9049 13.2563C11.2218 14.0663 11.3613 14.1663 12.002 14.2283V14.492H9.50303L9.50476 14.4903ZM8.53341 9.64579H8.51274C8.19585 10.4058 7.88412 11.19 7.58789 11.9293H9.3997L8.53341 9.64579Z" fill="#124F81"/>-->
-                    <!--                                        <path d="M19.1894 15.9965C18.6865 16.0155 18.1578 15.9534 17.8547 15.8707C17.5378 15.7897 16.7438 15.4381 15.521 14.6161C14.932 14.5971 14.0399 14.3834 13.3923 13.825C12.7775 13.2908 12.3486 12.5066 12.3486 11.6036C12.3486 9.89053 13.6575 8.38428 15.8517 8.38428C17.5843 8.38428 19.1308 9.60789 19.1308 11.4536C19.1308 13.0667 18.0079 14.1335 16.811 14.4713C17.4 14.835 18.3248 15.3882 19.2703 15.7897L19.1911 15.9965H19.1894ZM16.1944 14.0439C16.2943 14.0939 16.3856 14.1508 16.4717 14.2128C17.245 14.0112 18.0441 13.2029 18.0441 11.7087C18.0441 9.81987 16.966 8.72723 15.5985 8.72723C14.4687 8.72723 13.4302 9.64408 13.4302 11.3502C13.4302 12.8996 14.2965 14.0232 15.4797 14.249L16.1927 14.0422L16.1944 14.0439Z" fill="#124F81"/>-->
-                    <!--                                        <path d="M23.4122 14.4903V14.2266C24.0271 14.1456 24.1132 14.0629 23.9806 13.6923C23.8411 13.3287 23.6637 12.8703 23.4518 12.3429H21.33C21.1647 12.7634 21.0321 13.1219 20.9063 13.4855C20.6945 14.0439 20.7737 14.1508 21.5212 14.2266V14.4903H19.3408V14.2266C19.9815 14.1318 20.121 14.0698 20.4706 13.2546L22.5459 8.46699L22.8904 8.38599C23.5242 10.0111 24.1597 11.6432 24.8141 13.2563C25.131 14.0663 25.2705 14.1663 25.9112 14.2283V14.492H23.4122V14.4903ZM22.4409 9.64579H22.4202C22.1033 10.4058 21.7916 11.19 21.4954 11.9293H23.3072L22.4409 9.64579Z" fill="#124F81"/>-->
-                    <!--                                        <path d="M31.124 10.0026C31.019 9.54418 30.9122 9.29946 30.7865 9.14263C30.6211 8.92893 30.4489 8.86 29.6963 8.86H29.0229V13.3339C29.0229 14.0612 29.109 14.1681 30.0476 14.2249V14.4886H27.1198V14.2249C28.0257 14.1681 28.1118 14.0681 28.1118 13.3339V8.86H27.5366C26.6772 8.86 26.4722 8.94789 26.3396 9.14263C26.2139 9.29946 26.1278 9.57004 26.002 10.0026H25.7041C25.7506 9.40631 25.7971 8.79795 25.816 8.28955H26.0279C26.1726 8.52221 26.2983 8.52221 26.5893 8.52221H30.5953C30.8657 8.52221 30.9587 8.46534 31.1102 8.28955H31.3221C31.3221 8.71006 31.3755 9.41838 31.422 9.97159L31.124 10.0026Z" fill="#124F81"/>-->
-                    <!--                                        <path d="M5.55451 3.20387C5.91618 3.20387 6.10219 3.02636 6.10219 2.68341C6.10219 2.38871 5.85246 2.15088 5.55451 2.15088C5.19284 2.15088 5.00684 2.32839 5.00684 2.67134C5.00684 3.0143 5.19284 3.20387 5.55451 3.20387Z" fill="#124F81"/>-->
-                    <!--                                        <path d="M3.9217 3.20387C4.28337 3.20387 4.45732 3.02636 4.45732 2.68341C4.45732 2.38871 4.20759 2.15088 3.9217 2.15088C3.56175 2.15088 3.37402 2.32839 3.37402 2.67134C3.37402 3.0143 3.56175 3.20387 3.9217 3.20387Z" fill="#124F81"/>-->
-                    <!--                                        <path d="M9.30186 6.00434V2.62476L8.3684 2.8488L8.56818 4.31541V5.79236C8.56818 6.64372 8.1824 7.06767 7.39705 7.06767H2.24237C1.18318 7.06767 0.523563 6.19391 0.523563 4.83415C0.523563 4.30162 0.649287 3.8656 0.897291 3.51058H0.385783C0.124002 3.96039 0 4.49119 0 5.09438C0 6.65578 0.833567 7.63639 2.11664 7.63639H7.70706C8.70251 7.63639 9.30013 7.03321 9.30013 6.00434" fill="#124F81"/>-->
-                    <!--                                        <path d="M16.7078 1.02887C17.0695 1.02887 17.2555 0.863422 17.2555 0.53253C17.2555 0.237829 17.0058 0 16.7078 0C16.3462 0 16.1602 0.17751 16.1602 0.520466C16.1602 0.863422 16.3462 1.02887 16.7078 1.02887Z" fill="#124F81"/>-->
-                    <!--                                        <path d="M15.077 1.02887C15.4386 1.02887 15.6126 0.863422 15.6126 0.53253C15.6126 0.237829 15.3629 0 15.077 0C14.7153 0 14.5293 0.17751 14.5293 0.520466C14.5293 0.863422 14.7153 1.02887 15.077 1.02887Z" fill="#124F81"/>-->
-                    <!--                                        <path d="M15.1005 7.63652C16.0839 7.63652 16.7814 7.4366 17.1792 7.03333C17.6132 6.59558 17.8268 5.81661 17.8268 4.69295V4.08976C17.8268 3.58136 17.6769 3.17981 17.3652 2.86098C17.0294 2.53009 16.5437 2.36464 15.934 2.36464C15.4742 2.36464 15.0746 2.48183 14.7508 2.71966C14.3031 3.03849 14.0774 3.51243 14.0774 4.13802C14.0774 5.32027 14.7009 5.91139 15.9323 5.91139C16.3801 5.91139 16.7418 5.86486 17.0277 5.75801C17.0156 6.69209 16.5179 7.06952 15.2727 7.06952H13.206H12.7703C12.0108 7.06952 11.625 6.64384 11.625 5.79248V0.012207L10.6777 0.224185L10.8775 1.63048V6.00446C10.8775 7.09192 11.4131 7.63652 12.4706 7.63652H13.2043H15.097H15.1005ZM15.8858 5.53225C15.1762 5.53225 14.8146 5.0945 14.8146 4.22074C14.8146 3.216 15.2004 2.71966 15.9736 2.71966C16.7469 2.71966 17.0931 3.19187 17.0931 4.12596C17.0931 4.77568 17.081 5.15482 17.0432 5.28408C16.7573 5.44952 16.3715 5.53225 15.8858 5.53225Z" fill="#124F81"/>-->
-                    <!--                                        <path d="M30.625 3.29872C30.1014 2.9213 29.4315 2.73173 28.5962 2.73173C26.8275 2.73173 25.3704 3.86572 24.2251 6.1475L24.325 1.77352L24.449 0.367227L23.4277 0.474077L23.5776 1.77524V7.07124H21.7348H21.3008C20.5413 7.07124 20.1555 6.64556 20.1555 5.7942V0.012207L19.21 0.224185L19.4097 1.63048V6.00446C19.4097 7.09192 19.9454 7.63652 21.0028 7.63652H22.0741H31.4241V4.74121C31.4241 4.15008 31.1624 3.66581 30.6267 3.29872M30.6508 7.06779H24.3888C25.5599 4.57404 26.8671 3.33319 28.3224 3.33319C29.7777 3.33319 30.6508 3.92432 30.6508 4.95319V7.06952V7.06779Z" fill="#124F81"/>-->
-                    <!--                                        </svg>-->
-                    <!--                                        </span>-->
-                    <!--                                          <span class="text-primary ms-2">One app for all your payments</span>-->
-                    <!--                                      </div>-->
-                    <!--                                    </div>-->
-
-                    <!--                                    &lt;!&ndash; Main Headline &ndash;&gt;-->
-                    <!--                                    <h1 class="display-3 fw-bold text-dark mb-4" style="line-height: 1.1; max-width: 510px;">-->
-                    <!--                                        <span class="text-primary">One app for all your Payments</span>-->
-                    <!--                                    </h1>-->
-
-                    <!--                                    &lt;!&ndash; Subheading &ndash;&gt;-->
-                    <!--                                    <p class="lead text-muted mb-5" style="font-size: 1.25rem; line-height: 1.6;">-->
-                    <!--                                       Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.-->
-                    <!--                                    </p>-->
-
-                    <!--                                    &lt;!&ndash; CTA Buttons &ndash;&gt;-->
-                    <!--                                    <div class="d-flex flex-column flex-sm-row gap-3 mb-5">-->
-                    <!--                                        <a href="#features" class="btn btn-outline-primary btn-lg px-5 py-3 " style="font-weight: 600;">-->
-                    <!--                                            Get Started-->
-                    <!--                                        </a>-->
-                    <!--                                        <a href="#how-it-works" class=" btn-lg ps-3 py-3">-->
-                    <!--                                        Visit Taqat Website-->
-                    <!--                                        </a>-->
-                    <!--                                    </div>-->
-
-                    <!--                                </div>-->
-                    <!--                            </div>-->
-                    <!--                            &lt;!&ndash; Hero Phone Mockups &ndash;&gt;-->
-                    <!--                            <div class="col-lg-6 pt-5 hero_section  pt-lg-0 order-1 order-lg-2 col-md-12">-->
-                    <!--                                <div class="position-relative">-->
-                    <!--                                    &lt;!&ndash; Phone Mockup Stack &ndash;&gt;-->
-                    <!--                                    <div class="d-flex justify-content-center align-items-center">-->
-                    <!--                                        <img src="\theme_redeem\static\src\images\home\her.webp" alt="Redeem App - Main Interface"-->
-                    <!--                                             class="img-fluid  w-100 h-100   "  />-->
-
-                    <!--                                    </div>-->
-                    <!--                                </div>-->
-                    <!--                            </div>-->
-                    <!--                        </div>-->
-                    <!--                    </div>-->
-                    <!--                </section>-->
-
-                    <section class="features-section py-5 my-lg-5">
+                    <section id="features" class="features-section py-lg-5 my-lg-5">
                         <div class="container text-center mb-lg-5">
                             <div class="row py-4 my-5">
                                 <!-- Title -->
@@ -167,51 +103,51 @@
                                 <!-- Wrapper -->
                                 <div class="position-relative mt-lg-5">
                                     <!-- Center Phone -->
-                                    <div class="position-relative rounded-circle text-center m-auto pt-5"
+                                    <div class="position-relative   background_mobile rounded-circle text-center m-auto pt-5"
                                          style="background-color: #B1025D; min-height: 500px;max-width:500px"/>
                                     <div class="center-phone bg-danger">
                                     </div>
                                     <img style="  min-height: 600px; max-width: 593px; position: absolute;  top: -62px; left: 50%;
-            transform: translateX(-50%);"
+                    transform: translateX(-50%);"
                                          src="/theme_redeem/static/src/images/home/mopile.webp"
                                          alt="App"
-                                         class="img-fluid mobile_response   "
+                                         class="img-fluid w-100 mobile_response   "
                                     />
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: -42px;
-            left: 70px;" class="p-4 position-xl-absolute box_feature rounded-5">
+                    left: 70px;" class="p-4 position-xl-absolute box_feature rounded-5">
                                         <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: 172px;
-            left: 0;" class="p-4 box_feature position-xl-absolute rounded-5">
+                    left: 0;" class="p-4 box_feature position-xl-absolute rounded-5">
                                         <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;left: 61px;
-            bottom: 0;
-            " class="p-4 box_feature  position-xl-absolute rounded-5">
+                    bottom: 0;
+                    " class="p-4 box_feature  position-xl-absolute rounded-5">
                                         <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: -42px;
-            right: 70px;" class="p-4 position-xl-absolute box_feature rounded-5">
+                    right: 70px;" class="p-4 position-xl-absolute box_feature rounded-5">
                                         <h5 class="text-primary box_feature pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;top: 172px;
-            right: 0;" class="p-4 box_feature position-xl-absolute  rounded-5">
+                                   right: 0;" class="p-4 box_feature position-xl-absolute  rounded-5">
                                         <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
                                     <!-- Feature Boxes -->
                                     <div style="background: rgba(18, 79, 129, 0.06);width:fit-content;right: 61px;
-            bottom: 0;
-            " class="p-4  box_feature position-xl-absolute rounded-5">
+                                     bottom: 0;
+                                    " class="p-4  box_feature position-xl-absolute rounded-5">
                                         <h5 class="text-primary pb-1">Dual Mobile Applications</h5>
                                         <p class="text-primary ">Dual Mobile Applications</p>
                                     </div>
@@ -219,12 +155,136 @@
                             </div>
                         </div>
                     </section>
-                    <section id="automated_management">
+                    <section class="pt104 pb104">
                         <div class="container">
+                            <h4 class="fw-bold text-center pb-5  mb-lg-5 title">How It Works</h4>
                             <div class="row">
-                                <div class="col-lg-6">
-                                    <section class="s_text_block border-0 pt40 pb0 o_colored_level"
-                                             data-snippet="s_text_block">
+                                <div class="col-lg-6 position-relative">
+                                    <img class="img-fluid  h-100 w-100"
+                                         src="\theme_redeem\static\src\img\home-vslider.webp"
+                                         alt=""/>
+                                    <svg class="position-absolute start-0 top-0 z-n1" width="100%" height="100%"
+                                         viewBox="0 0 752 742" fill="none"
+                                         xmlns="http://www.w3.org/2000/svg">
+                                        <g filter="url(#filter0_f_109_5497)">
+                                            <circle cx="376" cy="376" r="176" fill="url(#paint0_linear_109_5497)"
+                                                    fill-opacity="0.3"/>
+                                        </g>
+                                        <defs>
+                                            <filter id="filter0_f_109_5497" x="0" y="0" width="752" height="752"
+                                                    filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix"
+                                                         result="shape"/>
+                                                <feGaussianBlur stdDeviation="100"
+                                                                result="effect1_foregroundBlur_109_5497"/>
+                                            </filter>
+                                            <linearGradient id="paint0_linear_109_5497" x1="376" y1="200" x2="376"
+                                                            y2="552"
+                                                            gradientUnits="userSpaceOnUse">
+                                                <stop stop-color="#B1025D"/>
+                                                <stop offset="1" stop-color="#B1025D"/>
+                                            </linearGradient>
+                                        </defs>
+                                    </svg>
+
+                                </div>
+                                <div class="col-lg-6 js_vertical_carousel overflow-hidden position-relative">
+                                    <div class="h-100">
+                                        <div class="vertical-carousel">
+                                            <div class="vertical-carousel-item active" data-step="1">
+                                                <div class="step-number">01</div>
+                                                <h3 class="step-title">Register &amp; Get Verified</h3>
+                                                <p class="step-description">Your organization signs up on the Taqat
+                                                    platform.
+                                                    Our
+                                                    team verifies your documents to establish a secure and trusted
+                                                    partnership.
+                                                </p>
+                                            </div>
+
+                                            <div class="vertical-carousel-item" data-step="2">
+                                                <div class="step-number">02</div>
+                                                <h3 class="step-title">Onboard Your Beneficiaries</h3>
+                                                <p class="step-description">Easily upload a list of your beneficiaries
+                                                    and
+                                                    define
+                                                    the balance to be allocated to each person through your dedicated
+                                                    portal.
+                                                </p>
+                                            </div>
+
+                                            <div class="vertical-carousel-item" data-step="3">
+                                                <div class="step-number">03</div>
+                                                <h3 class="step-title">Monitor, Track, Analyze &amp; Report</h3>
+                                                <p class="step-description">Log in to your portal at any time to see a
+                                                    complete
+                                                    overview of all transactions. Monitor your program's impact with
+                                                    powerful,
+                                                    real-time data and detailed spending reports.
+                                                </p>
+                                            </div>
+
+                                            <div class="vertical-carousel-item" data-step="4">
+                                                <div class="step-number">04</div>
+                                                <h3 class="step-title">Automated Fund Management</h3>
+                                                <p class="step-description">Our system automatically manages fund
+                                                    distribution
+                                                    and
+                                                    ensures secure transactions while providing complete transparency
+                                                    and
+                                                    control
+                                                    over your charity programs.
+                                                </p>
+                                            </div>
+
+                                            <div class="vertical-carousel-item" data-step="5">
+                                                <div class="step-number">05</div>
+                                                <h3 class="step-title">24/7 Support &amp; Security</h3>
+                                                <p class="step-description">We provide round-the-clock support through
+                                                    multiple
+                                                    channels and ensure your data is protected by advanced encryption
+                                                    and
+                                                    security
+                                                    protocols.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-nav">
+                                            <button class="nav-arrow btn-primary nav-prev" type="button">
+                                                <svg fill="currentColor" viewBox="0 0 20 20">
+                                                    <path fill-rule="evenodd"
+                                                          d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                                                          clip-rule="evenodd"/>
+                                                </svg>
+                                            </button>
+                                            <button class="nav-arrow btn-primary nav-next" type="button">
+                                                <svg fill="currentColor" viewBox="0 0 20 20">
+                                                    <path fill-rule="evenodd"
+                                                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                                          clip-rule="evenodd"/>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="automated_management">
+                        <div class="container py-5">
+                            <div class="row">
+                                <div class="col-lg-6   order-2 order-lg-1  ">
+                                    <div class="content ">
+                                        <h3 class="text-primary pb-3 fs-4 fw-bold">Automated Fund Management</h3>
+                                        <p class="text-primary " style="max-width: 545px;">The Redeem app provides more
+                                            than just
+                                            technology, it delivers tangible
+                                            benefits for your organization and the communities you serve.
+                                        </p>
+                                    </div>
+                                    <div class="s_text_block border-0 pt40 pb0 o_colored_level"
+                                         data-snippet="s_text_block">
                                         <div class="s_allow_columns container">
                                             <div data-name="Accordion" data-snippet="s_accordion" class="s_accordion">
                                                 <div id="myCollapse" class="accordion">
@@ -232,28 +292,38 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header ps-0 accordion-button fw-bold fs-4 gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_5"
                                                                 aria-controls="myCollapseTab814744_5">
-                                                            <span class="flex-grow-1">What services does your company
-                                                                offer
-                                                                ?
+                                                            <span class="flex-grow-1">Empower Beneficiaries with Dignity
                                                             </span>
-                                                            <img src="/theme_redeem/static/src/images/home/rigth.png"/>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="42"
+                                                                 height="42" viewBox="0 0 42 42" fill="none">
+                                                                <mask id="mask0_109_5514" style="mask-type:luminance"
+                                                                      maskUnits="userSpaceOnUse" x="3" y="3" width="36"
+                                                                      height="36">
+                                                                    <path d="M5.25 21C5.25 12.3025 12.3025 5.25 21 5.25C29.6975 5.25 36.75 12.3025 36.75 21C36.75 29.6975 29.6975 36.75 21 36.75C12.3025 36.75 5.25 29.6975 5.25 21Z"
+                                                                          fill="white" stroke="white" stroke-width="4"
+                                                                          stroke-linecap="round"
+                                                                          stroke-linejoin="round"/>
+                                                                    <path d="M14 21L19.25 26.25L28 17.5" stroke="black"
+                                                                          stroke-width="4" stroke-linecap="round"
+                                                                          stroke-linejoin="round"/>
+                                                                </mask>
+                                                                <g mask="url(#mask0_109_5514)">
+                                                                    <path d="M42 0H0V42H42V0Z" fill="#B1025D"/>
+                                                                </g>
+                                                            </svg>
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
                                                              data-bs-parent="#myCollapse" role="region"
                                                              id="myCollapseTab814744_5"
                                                              aria-labelledby="accordion-button814744_1">
                                                             <div class="accordion-body">
-                                                                <p>Our company specializes in consulting, product
-                                                                    development, and customer support. We tailor our
-                                                                    services to fit the unique needs of businesses
-                                                                    across
-                                                                    various sectors, helping them grow and succeed in a
-                                                                    competitive market.
+                                                                <p>Move beyond handing out goods and give beneficiaries
+                                                                    the freedom to choose what they truly need.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -262,27 +332,40 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_2"
                                                                 aria-controls="myCollapseTab814744_2">
-                                                            <span class="flex-grow-1">What services does your company
-                                                                offer
-                                                                ?
+                                                            <span class="flex-grow-1">
+                                                                Boost Local Economies
                                                             </span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="42"
+                                                                 height="42" viewBox="0 0 42 42" fill="none">
+                                                                <mask id="mask0_109_5514" style="mask-type:luminance"
+                                                                      maskUnits="userSpaceOnUse" x="3" y="3" width="36"
+                                                                      height="36">
+                                                                    <path d="M5.25 21C5.25 12.3025 12.3025 5.25 21 5.25C29.6975 5.25 36.75 12.3025 36.75 21C36.75 29.6975 29.6975 36.75 21 36.75C12.3025 36.75 5.25 29.6975 5.25 21Z"
+                                                                          fill="white" stroke="white" stroke-width="4"
+                                                                          stroke-linecap="round"
+                                                                          stroke-linejoin="round"/>
+                                                                    <path d="M14 21L19.25 26.25L28 17.5" stroke="black"
+                                                                          stroke-width="4" stroke-linecap="round"
+                                                                          stroke-linejoin="round"/>
+                                                                </mask>
+                                                                <g mask="url(#mask0_109_5514)">
+                                                                    <path d="M42 0H0V42H42V0Z" fill="#B1025D"/>
+                                                                </g>
+                                                            </svg>
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
                                                              data-bs-parent="#myCollapse" role="region"
                                                              id="myCollapseTab814744_2"
                                                              aria-labelledby="accordion-button814744_1">
                                                             <div class="accordion-body">
-                                                                <p>Our company specializes in consulting, product
-                                                                    development, and customer support. We tailor our
-                                                                    services to fit the unique needs of businesses
-                                                                    across
-                                                                    various sectors, helping them grow and succeed in a
-                                                                    competitive market.
+                                                                <p>By partnering with local merchants, you ensure that
+                                                                    aid money directly supports and strengthens the
+                                                                    communities you serve.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -291,27 +374,39 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_3"
                                                                 aria-controls="myCollapseTab814744_3">
-                                                            <span class="flex-grow-1">What services does your company
-                                                                offer
-                                                                ?
+                                                            <span class="flex-grow-1">Reduce Administrative Overhead
                                                             </span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="42"
+                                                                 height="42" viewBox="0 0 42 42" fill="none">
+                                                                <mask id="mask0_109_5514" style="mask-type:luminance"
+                                                                      maskUnits="userSpaceOnUse" x="3" y="3" width="36"
+                                                                      height="36">
+                                                                    <path d="M5.25 21C5.25 12.3025 12.3025 5.25 21 5.25C29.6975 5.25 36.75 12.3025 36.75 21C36.75 29.6975 29.6975 36.75 21 36.75C12.3025 36.75 5.25 29.6975 5.25 21Z"
+                                                                          fill="white" stroke="white" stroke-width="4"
+                                                                          stroke-linecap="round"
+                                                                          stroke-linejoin="round"/>
+                                                                    <path d="M14 21L19.25 26.25L28 17.5" stroke="black"
+                                                                          stroke-width="4" stroke-linecap="round"
+                                                                          stroke-linejoin="round"/>
+                                                                </mask>
+                                                                <g mask="url(#mask0_109_5514)">
+                                                                    <path d="M42 0H0V42H42V0Z" fill="#B1025D"/>
+                                                                </g>
+                                                            </svg>
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
                                                              data-bs-parent="#myCollapse" role="region"
                                                              id="myCollapseTab814744_3"
                                                              aria-labelledby="accordion-button814744_1">
                                                             <div class="accordion-body">
-                                                                <p>Our company specializes in consulting, product
-                                                                    development, and customer support. We tailor our
-                                                                    services to fit the unique needs of businesses
-                                                                    across
-                                                                    various sectors, helping them grow and succeed in a
-                                                                    competitive market.
+                                                                <p>Eliminate the logistical challenges and costs
+                                                                    associated with procuring, storing, and distributing
+                                                                    physical goods or cash.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -320,27 +415,39 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_4"
                                                                 aria-controls="myCollapseTab814744_4">
-                                                            <span class="flex-grow-1">What services does your company
-                                                                offer
-                                                                ?
+                                                            <span class="flex-grow-1">Scalable for Any Operation
                                                             </span>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="42"
+                                                                 height="42" viewBox="0 0 42 42" fill="none">
+                                                                <mask id="mask0_109_5514" style="mask-type:luminance"
+                                                                      maskUnits="userSpaceOnUse" x="3" y="3" width="36"
+                                                                      height="36">
+                                                                    <path d="M5.25 21C5.25 12.3025 12.3025 5.25 21 5.25C29.6975 5.25 36.75 12.3025 36.75 21C36.75 29.6975 29.6975 36.75 21 36.75C12.3025 36.75 5.25 29.6975 5.25 21Z"
+                                                                          fill="white" stroke="white" stroke-width="4"
+                                                                          stroke-linecap="round"
+                                                                          stroke-linejoin="round"/>
+                                                                    <path d="M14 21L19.25 26.25L28 17.5" stroke="black"
+                                                                          stroke-width="4" stroke-linecap="round"
+                                                                          stroke-linejoin="round"/>
+                                                                </mask>
+                                                                <g mask="url(#mask0_109_5514)">
+                                                                    <path d="M42 0H0V42H42V0Z" fill="#B1025D"/>
+                                                                </g>
+                                                            </svg>
                                                         </button>
                                                         <div class="accordion-collapse collapse show"
                                                              data-bs-parent="#myCollapse" role="region"
                                                              id="myCollapseTab814744_4"
                                                              aria-labelledby="accordion-button814744_1">
                                                             <div class="accordion-body">
-                                                                <p>Our company specializes in consulting, product
-                                                                    development, and customer support. We tailor our
-                                                                    services to fit the unique needs of businesses
-                                                                    across
-                                                                    various sectors, helping them grow and succeed in a
-                                                                    competitive market.
+                                                                <p>Whether you support ten beneficiaries or ten
+                                                                    thousand, our platform is built to scale with the
+                                                                    size and complexity of your mission.
                                                                 </p>
                                                             </div>
                                                         </div>
@@ -349,18 +456,24 @@
                                             </div>
                                             <h1 style="text-align: center;">&amp;nbsp;</h1>
                                         </div>
-                                    </section>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6  hero_section pb-5 pb-lg-0   order-1 order-lg-2 ">
+                                    <img class="w-100" loading="lazy"
+                                         src="/theme_redeem/static/src/images/home/image.webp"
+                                         alt="automated management"/>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section id="Ready" class="py-5 overflow-hidden mb-lg-5">
+                    <section id="application" class="py-5 overflow-hidden mb-lg-5">
                         <div class="container">
                             <div class="row text-center text-lg-start">
                                 <div class="content      text-center m-auto">
                                     <h4 class="pb-2 fs-4 fw-bold text-primary">Ready to Transform Your Aid Distribution?
                                     </h4>
-                                    <p style="max-width: 815px;" class=" m-auto pb-5 mb-5 text-primary">Join the growing
+                                    <p style="max-width: 815px;" class=" m-auto pb-lg-5 mb-5 text-primary">Join the
+                                        growing
                                         number of
                                         organizations using Redeem
                                         App to deliver aid with more efficiency, transparency, and impact than ever
@@ -374,7 +487,7 @@
                                         <h4 class="pb-2 fw-bold text-primary">For Merchant</h4>
                                         <h5 class="pb-3">Manage donations and payments easily</h5>
                                         <div class="links row align-items-center   m-auto    gap-4 align-items-center  ">
-                                            <a style=" padding: 12px 26px;"
+                                            <a href="/" style=" padding: 12px 26px;"
                                                class="btn rounded-4 w-100 col-lg    w-lg-auto  text-start  h-100 align-items-center btn-primary d-flex gap-3  rounded-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="26"
                                                      viewBox="0 0 22 26" fill="none">
@@ -388,7 +501,7 @@
                                                     <span class="text-white d-block   fw-bold">App Store</span>
                                                 </div>
                                             </a>
-                                            <a style="  padding: 12px 26px;"
+                                            <a href="/" style="  padding: 12px 26px;"
                                                class="btn  col-lg w-100   w-lg-auto   h-100 align-items-center btn-outline-primary d-flex gap-3  rounded-4">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24"
                                                      viewBox="0 0 21 24" fill="none">
@@ -451,7 +564,7 @@
                                         </h4>
                                         <h5 class="pb-3">Receive and manage support securely</h5>
                                         <div class="links flex-wrap row align-items-center   m-auto    gap-4 align-items-center  ">
-                                            <a style=" padding: 12px 26px;"
+                                            <a href="/" style=" padding: 12px 26px;"
                                                class="btn rounded-4 col-lg w-100  h-auto  w-lg-auto  text-start  h-100 align-items-center btn-secondary d-flex gap-3  rounded-3">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="22" height="26"
                                                      viewBox="0 0 22 26" fill="none">
@@ -467,7 +580,7 @@
                                                     </span>
                                                 </div>
                                             </a>
-                                            <a style="  padding: 12px 26px;"
+                                            <a href="/" style="  padding: 12px 26px;"
                                                class="btn col-lg  w-100  h-auto w-lg-auto   h-100 align-items-center btn-outline-secondary d-flex gap-3  rounded-4">
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24"
                                                      viewBox="0 0 21 24" fill="none">
@@ -527,7 +640,6 @@
                             </div>
                         </div>
                     </section>
-
                 </div>
             </xpath>
         </template>
