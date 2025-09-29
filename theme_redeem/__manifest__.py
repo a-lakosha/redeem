@@ -42,6 +42,12 @@ Key Features:
         'data/menu.xml',
 
     ],
+    'assets': {
+        # 'website.website_builder_assets': [
+        #     'theme_redeem/static/src/snippets/s_vertical_carousel/options.js',
+        #     'theme_redeem/static/src/snippets/s_vertical_carousel/options.xml',
+        # ],
+    },
     'installable': True,
     'application': False,
     'auto_install': False,

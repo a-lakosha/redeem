@@ -7,13 +7,6 @@
             <field name="path">theme_redeem/static/src/scss/style.scss</field>
         </record>
 
-        <record id="theme_redeem.snippets_js" model="theme.ir.asset">
-            <field name="key">theme_redeem.snippets_js</field>
-            <field name="name">Snippets JS</field>
-            <field name="bundle">web.assets_frontend</field>
-            <field name="path">theme_redeem/static/src/js/snippets.component.js</field>
-        </record>
-
         <record id="theme_redeem.primary_variables_scss" model="theme.ir.asset">
             <field name="key">theme_redeem.primary_variables_scss</field>
             <field name="name">Primary variables SCSS</field>
@@ -26,6 +19,27 @@
             <field name="name">Big icons 000 SCSS</field>
             <field name="bundle">web.assets_frontend</field>
             <field name="path">theme_redeem/static/src/lib/bootstrap-icons/bootstrap-icons.css</field>
+        </record>
+
+        <record id="theme_redeem.snippets_js" model="theme.ir.asset">
+            <field name="key">theme_redeem.snippets_js</field>
+            <field name="name">Snippets JS</field>
+            <field name="bundle">web.assets_frontend</field>
+            <field name="path">theme_redeem/static/src/js/snippets.component.js</field>
+        </record>
+
+        <record id="theme_redeem.vertical_carousel_options_js" model="theme.ir.asset">
+            <field name="key">theme_redeem.vertical_carousel_options_js</field>
+            <field name="name">Vertical Carousel Options JS</field>
+            <field name="bundle">website.website_builder_assets</field>
+            <field name="path">theme_redeem/static/src/snippets/s_vertical_carousel/options.js</field>
+        </record>
+
+        <record id="theme_redeem.vertical_carousel_options_xml" model="theme.ir.asset">
+            <field name="key">theme_redeem.vertical_carousel_options_xml</field>
+            <field name="name">Vertical Carousel Editor XML</field>
+            <field name="bundle">website.website_builder_assets</field>
+            <field name="path">theme_redeem/static/src/snippets/s_vertical_carousel/options.xml</field>
         </record>
     </data>
 </odoo>

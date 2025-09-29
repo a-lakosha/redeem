@@ -2,34 +2,6 @@
 
 import publicWidget from "@web/legacy/js/public/public_widget";
 
-publicWidget.registry.cursorCircle = publicWidget.Widget.extend({
-    selector: 'body',
-
-    start: function () {
-        let circle = document.getElementById('cursor-circle');
-        if (!circle) {
-            circle = document.createElement('div');
-            circle.id = 'cursor-circle';
-            document.body.appendChild(circle);
-        }
-
-        let mouseX = 0, mouseY = 0;
-
-        document.addEventListener('mousemove', (e) => {
-            mouseX = e.pageX;
-            mouseY = e.pageY;
-        });
-
-        function moveCircle() {
-            circle.style.left = mouseX - 15 + 'px';
-            circle.style.top = mouseY - 15 + 'px';
-            requestAnimationFrame(moveCircle);
-        }
-
-        moveCircle();
-    }
-});
-
 publicWidget.registry.verticalCarousel = publicWidget.Widget.extend({
     selector: '.js_vertical_carousel',
 
@@ -40,12 +12,11 @@ publicWidget.registry.verticalCarousel = publicWidget.Widget.extend({
         this.autoPlayTimer = null;
         this.autoPlayDelay = 4000; // 4 seconds
 
-        this.carouselItems = this.$el.find('.vertical-carousel-item');
-        this.prevBtn = this.$el.find('.nav-prev');
-        this.nextBtn = this.$el.find('.nav-next');
+        this._refreshItems();
+        this._bindEvents();
+        this._bindEditorEvents();
 
         if (this.carouselItems.length > 0) {
-            this._bindEvents();
             this._startAutoPlay();
             this._updateNavigation();
             // Initialize the first slide with proper states
@@ -223,5 +194,137 @@ publicWidget.registry.verticalCarousel = publicWidget.Widget.extend({
         this._clearAutoPlay();
         $(document).off('keydown', this._handleKeyboard.bind(this));
         this._super.apply(this, arguments);
+    },
+
+    //--------------------------------------------------------------------------
+    // Dynamic Item Management
+    //--------------------------------------------------------------------------
+
+    /**
+     * Refresh carousel items cache
+     */
+    _refreshItems: function () {
+        this.carouselItems = this.$el.find('.vertical-carousel-item');
+        this.prevBtn = this.$el.find('.nav-prev');
+        this.nextBtn = this.$el.find('.nav-next');
+    },
+
+    /**
+     * Bind editor-specific events
+     */
+    _bindEditorEvents: function () {
+        // Listen for carousel updates from editor
+        this.$el.on('carousel_updated', this._onCarouselUpdated.bind(this));
+    },
+
+    /**
+     * Handle carousel update from editor
+     */
+    _onCarouselUpdated: function () {
+        this._refreshItems();
+
+        // Ensure current index is valid
+        if (this.currentIndex >= this.carouselItems.length) {
+            this.currentIndex = 0;
+        }
+
+        // Restart with new items
+        this._clearAutoPlay();
+        if (this.carouselItems.length > 0) {
+            this._showSlide(this.currentIndex);
+            this._startAutoPlay();
+            this._updateNavigation();
+        }
+    },
+
+    /**
+     * Add new carousel item
+     */
+    addCarouselItem: function (stepData) {
+        const newIndex = this.carouselItems.length + 1;
+        const stepNumber = String(newIndex).padStart(2, '0');
+
+        const newItemHtml = `
+            <div class="vertical-carousel-item" data-step="${newIndex}">
+                <div class="step-number">${stepNumber}</div>
+                <h3 class="step-title">${stepData.title || 'New Step Title'}</h3>
+                <p class="step-description">${stepData.description || 'Add your step description here.'}</p>
+            </div>
+        `;
+
+        this.$el.find('.vertical-carousel').append(newItemHtml);
+        this._onCarouselUpdated();
+    },
+
+    /**
+     * Remove carousel item by index
+     */
+    removeCarouselItem: function (index) {
+        if (this.carouselItems.length > 1 && index < this.carouselItems.length) {
+            $(this.carouselItems[index]).remove();
+            this._updateItemNumbers();
+            this._onCarouselUpdated();
+        }
+    },
+
+    /**
+     * Move item up in order
+     */
+    moveItemUp: function (index) {
+        if (index > 0) {
+            const $item = $(this.carouselItems[index]);
+            const $prevItem = $(this.carouselItems[index - 1]);
+            $item.insertBefore($prevItem);
+            this._updateItemNumbers();
+            this._onCarouselUpdated();
+        }
+    },
+
+    /**
+     * Move item down in order
+     */
+    moveItemDown: function (index) {
+        if (index < this.carouselItems.length - 1) {
+            const $item = $(this.carouselItems[index]);
+            const $nextItem = $(this.carouselItems[index + 1]);
+            $item.insertAfter($nextItem);
+            this._updateItemNumbers();
+            this._onCarouselUpdated();
+        }
+    },
+
+    /**
+     * Update step numbers after reordering
+     */
+    _updateItemNumbers: function () {
+        this._refreshItems();
+        this.carouselItems.each((index, item) => {
+            const $item = $(item);
+            const stepNumber = String(index + 1).padStart(2, '0');
+            $item.attr('data-step', index + 1);
+            $item.find('.step-number').text(stepNumber);
+        });
+    },
+
+    /**
+     * Toggle auto-play
+     */
+    toggleAutoPlay: function (enabled) {
+        if (enabled) {
+            this._startAutoPlay();
+        } else {
+            this._clearAutoPlay();
+        }
+    },
+
+    /**
+     * Set animation speed
+     */
+    setAnimationSpeed: function (speed) {
+        this.autoPlayDelay = parseInt(speed) || 4000;
+        if (this.autoPlayTimer) {
+            this._clearAutoPlay();
+            this._startAutoPlay();
+        }
     }
 });
