@@ -189,10 +189,12 @@
                                     </svg>
 
                                 </div>
-                                <div class="col-lg-6 js_vertical_carousel overflow-hidden position-relative">
+                                <div class="col-lg-6 js_vertical_carousel overflow-hidden position-relative"
+                                     data-snippet="s_vertical_carousel" data-js="VerticalCarousel">
                                     <div class="h-100">
                                         <div class="vertical-carousel">
-                                            <div class="vertical-carousel-item active" data-step="1">
+                                            <div class="vertical-carousel-item active" data-step="1"
+                                                 data-js="VerticalCarouselItem">
                                                 <div class="step-number">01</div>
                                                 <h3 class="step-title">Register &amp; Get Verified</h3>
                                                 <p class="step-description">Your organization signs up on the Taqat
@@ -203,7 +205,8 @@
                                                 </p>
                                             </div>
 
-                                            <div class="vertical-carousel-item" data-step="2">
+                                            <div class="vertical-carousel-item" data-step="2"
+                                                 data-js="VerticalCarouselItem">
                                                 <div class="step-number">02</div>
                                                 <h3 class="step-title">Onboard Your Beneficiaries</h3>
                                                 <p class="step-description">Easily upload a list of your beneficiaries
@@ -214,7 +217,8 @@
                                                 </p>
                                             </div>
 
-                                            <div class="vertical-carousel-item" data-step="3">
+                                            <div class="vertical-carousel-item" data-step="3"
+                                                 data-js="VerticalCarouselItem">
                                                 <div class="step-number">03</div>
                                                 <h3 class="step-title">Monitor, Track, Analyze &amp; Report</h3>
                                                 <p class="step-description">Log in to your portal at any time to see a
@@ -225,7 +229,8 @@
                                                 </p>
                                             </div>
 
-                                            <div class="vertical-carousel-item" data-step="4">
+                                            <div class="vertical-carousel-item" data-step="4"
+                                                 data-js="VerticalCarouselItem">
                                                 <div class="step-number">04</div>
                                                 <h3 class="step-title">Automated Fund Management</h3>
                                                 <p class="step-description">Our system automatically manages fund
@@ -238,7 +243,8 @@
                                                 </p>
                                             </div>
 
-                                            <div class="vertical-carousel-item" data-step="5">
+                                            <div class="vertical-carousel-item" data-step="5"
+                                                 data-js="VerticalCarouselItem">
                                                 <div class="step-number">05</div>
                                                 <h3 class="step-title">24/7 Support &amp; Security</h3>
                                                 <p class="step-description">We provide round-the-clock support through
