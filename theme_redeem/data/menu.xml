@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    
+
     <!-- Redeem Digital Wallet Theme - Menu Configuration -->
-    
+
     <!-- Note: This theme is designed as a single landing page -->
     <!-- Additional menu items can be added here if more pages are needed -->
-    
+
     <!-- Example menu items (commented out for single-page design) -->
 
     <record id="menu_features" model="website.menu">
