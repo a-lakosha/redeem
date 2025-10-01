@@ -1,23 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <!--add snippet options-->
-    <template id="snippet_footer_redeem" inherit_id="website.snippet_options_conditional_visibility">
-        <xpath expr="//div/we-select[@data-variable='footer-template']" position="inside">
-            <we-button title="Custom Footer" data-name="footer_custom_opt"
-                       data-customize-website-views="theme_redeem.custom_theme_redeem_footer"
-                       data-customize-website-variable="'custom_footer'"
-                       data-img="/website/static/src/img/snippets_options/footer_template_contact.svg"/>
-        </xpath>
-    </template>
     <template
-            id="custom_theme_redeem_footer"
-            inherit_id="website.layout"
+            id="custom_redeem_footer"
+            inherit_id="website.template_footer_descriptive"
             name="Redeem Footer"
     >
-        <xpath expr="//footer" position="replace">
-            <footer class="pt-5 bg-primary text-white">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div id="footer" class="pt-5 bg-primary text-white" t-ignore="true" t-if="not no_footer">
                 <div class="container py-lg-3">
-                    <div class="d-flex justify-content-between   align-items-center flex-wrap">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap">
                         <a href="" class="logo m-auto m-lg-0 ">
                             <svg width="118" height="38" viewBox="0 0 118 38" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +60,7 @@
                         <p class="coopy-write text-center text-white pt-4   mt-lg-3 pt-3">Copyright © 2025 Taqat</p>
                     </div>
                 </div>
-            </footer>
+            </div>
         </xpath>
     </template>
 </odoo>
