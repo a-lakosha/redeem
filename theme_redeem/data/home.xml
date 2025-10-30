@@ -370,7 +370,8 @@
                                                                 with Dignity
                                                             </h5>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="42"
-                                                                 height="42" viewBox="0 0 42 42" fill="none">
+                                                                 height="42" viewBox="0 0 42 42" fill="none"
+                                                                 style="min-width:42px;">
                                                                 <mask id="mask0_364_5858" style="mask-type:luminance"
                                                                       maskUnits="userSpaceOnUse" x="10" y="10"
                                                                       width="22" height="22">
@@ -416,7 +417,8 @@
                                                                 Boost Local Economies
                                                             </h5>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="42"
-                                                                 height="42" viewBox="0 0 42 42" fill="none">
+                                                                 height="42" viewBox="0 0 42 42" fill="none"
+                                                                 style="min-width:42px;">
                                                                 <mask id="mask0_364_5858" style="mask-type:luminance"
                                                                       maskUnits="userSpaceOnUse" x="10" y="10"
                                                                       width="22" height="22">
@@ -464,7 +466,8 @@
                                                                 Overhead
                                                             </h5>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="42"
-                                                                 height="42" viewBox="0 0 42 42" fill="none">
+                                                                 height="42" viewBox="0 0 42 42" fill="none"
+                                                                 style="min-width:42px;">
                                                                 <mask id="mask0_364_5858" style="mask-type:luminance"
                                                                       maskUnits="userSpaceOnUse" x="10" y="10"
                                                                       width="22" height="22">
@@ -511,8 +514,10 @@
                                                                 Operation
                                                             </h5>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="42"
-                                                                 height="42" viewBox="0 0 42 42" fill="none">
-                                                                <mask id="mask0_364_5858" style="mask-type:luminance"
+                                                                 height="42" viewBox="0 0 42 42" fill="none"
+                                                                 style="min-width:42px;">
+                                                                <mask id="mask0_364_5858"
+                                                                      style="mask-type:luminance"
                                                                       maskUnits="userSpaceOnUse" x="10" y="10"
                                                                       width="22" height="22">
                                                                     <path d="M11 21C11 15.4778 15.4778 11 21 11C26.5222 11 31 15.4778 31 21C31 26.5222 26.5222 31 21 31C15.4778 31 11 26.5222 11 21Z"
