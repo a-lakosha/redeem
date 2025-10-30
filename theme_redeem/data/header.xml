@@ -9,7 +9,8 @@
         </template>
         <template id="custom_btn" inherit_id="website.header_call_to_action">
             <xpath expr="//a[hasclass('oe_unremovable')]" position="replace">
-                <a href="/#application" class="oe_unremovable btn btn-outline-primary btn_cta">Get the app now</a>
+                <a href="/#application" class="oe_unremovable btn btn-primary btn_cta text-uppercase">Get the app now
+                </a>
             </xpath>
         </template>
     </data>

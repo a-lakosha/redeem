@@ -41,5 +41,16 @@
             <field name="bundle">website.website_builder_assets</field>
             <field name="path">theme_redeem/static/src/snippets/s_vertical_carousel/options.xml</field>
         </record>
+
+        <record id="theme_redeem.theme_redeem_logo" model="theme.ir.attachment">
+            <field name="key">theme_redeem.theme_redeem_logo</field>
+            <field name="name">theme_redeem.theme_redeem_logo</field>
+            <field name="url">/theme_redeem/static/src/images/home/logo.svg</field>
+        </record>
+
+        <!--        <record id="website.default_website" model="website">-->
+        <!--            <field name="logo" ref="theme_redeem.theme_redeem_logo"/>-->
+        <!--        </record>-->
+
     </data>
 </odoo>

@@ -51,7 +51,7 @@
                                                           fill="var(--primary)"/>
                                                 </svg>
                                             </div>
-                                            <span class="fw-medium">Redeem Mobile Application</span>
+                                            <span class="fw-medium">Khair Gate Mobile Application</span>
                                         </div>
 
                                         <!-- Main Heading -->
@@ -62,8 +62,8 @@
 
                                         <!-- Description -->
                                         <p style="max-width: 567px;" class="mb-5 text-primary">
-                                            The Redeem App by Taqat, in partnership with Qatar Charity, transforms aid
-                                            distribution. More than a wallet, it's a direct line to hope, forging a
+                                            The Khair Gate App by Taqat, in partnership with Qatar Charity, transforms
+                                            aid distribution. More than a wallet, it's a direct line to hope, forging a
                                             seamless connection between administrators, individuals, and merchants for
                                             total transparency and efficiency.
                                         </p>
@@ -71,12 +71,12 @@
                                         <!-- CTA Buttons -->
                                         <div class="d-flex flex-wrap gap-3 align-items-center">
                                             <a href="#application"
-                                               class="btn btn-outline-primary text-uppercase fw-medium">
+                                               class="btn btn-primary text-uppercase fw-medium">
                                                 Get Started
                                             </a>
                                             <a target="_blank" href="https://www.taqat.qa/"
-                                               class="btn btn-link text-decoration-none text-primary">
-                                                <span class="">Visit Taqat Website</span>
+                                               class="btn btn-outline-primary text-decoration-none text-primary">
+                                                <span class="text-uppercase fw-bold">Visit Taqat Website</span>
                                             </a>
                                         </div>
                                     </div>
@@ -114,7 +114,7 @@
                                         <div class="position-relative    background_mobile rounded-circle text-center m-auto pt-5"
                                              style="background-color: #B1025D; min-height: 500px;max-width:500px">
                                             <img style="     max-width: 593px;position: absolute;top: 50%;transform: translateY(-50%);left: 0px; "
-                                                 src="/theme_redeem/static/src/images/home/mopile.webp"
+                                                 src="/theme_redeem/static/src/images/home/mobile.webp"
                                                  alt="App"
                                                  class="img-fluid w-100 mobile_response   "
                                             />
@@ -208,12 +208,12 @@
                     </section>
                     <section id="how-it-works" class=" mt-lg-4 mt-lg-5 pt-lg-5 position-relative pb104">
                         <div class="container">
-                            <h4 class="fw-bold text-center pb-3  mb-lg-5 title">How It Works</h4>
+                            <h4 class="fw-bold text-center text-primary pb-3  mb-lg-5 title">How It Works</h4>
                             <div class="row ">
                                 <div class="col-lg-6  p-0">
                                     <img style="    max-width: 800px;left: -102px;top: 0;"
                                          class="img-fluid h-auto position-lg-absolute  h-100 w-100"
-                                         src="\theme_redeem\static\src\img\home-vslider.webp"
+                                         src="\theme_redeem\static\src\img\home-vslide.webp"
                                          alt=""/>
                                     <svg style="    max-width: 800px;left: -102px;"
                                          class="position-absolute d-lg-block d-none start-0 top-0 z-n1" width="100%"
@@ -313,17 +313,17 @@
                                         </div>
                                         <div class="carousel-nav">
                                             <button class="nav-arrow btn-primary nav-prev" type="button">
-                                                <svg fill="currentColor" viewBox="0 0 20 20">
-                                                    <path fill-rule="evenodd"
-                                                          d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                                                          clip-rule="evenodd"/>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8"
+                                                     viewBox="0 0 10 8" fill="none">
+                                                    <path d="M0 7.03906L9.77454 7.03906L4.88727 1.64253e-05L0 7.03906Z"
+                                                          fill="white"/>
                                                 </svg>
                                             </button>
                                             <button class="nav-arrow btn-primary nav-next" type="button">
-                                                <svg fill="currentColor" viewBox="0 0 20 20">
-                                                    <path fill-rule="evenodd"
-                                                          d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                                                          clip-rule="evenodd"/>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8"
+                                                     viewBox="0 0 10 8" fill="none">
+                                                    <path d="M9.77441 0L-0.000130653 -4.25653e-07L4.88714 7.03905L9.77441 0Z"
+                                                          fill="white"/>
                                                 </svg>
                                             </button>
                                         </div>
@@ -338,13 +338,14 @@
                                 <div class="col-lg-6   order-2 order-lg-1  ">
                                     <div class="content ">
                                         <h3 class="text-primary pb-3 fs-4 fw-bold">Automated Fund Management</h3>
-                                        <p class="text-primary " style="max-width: 545px;">The Redeem app provides more
+                                        <p class="text-primary mb-0 " style="max-width: 545px;">The Redeem app provides
+                                            more
                                             than just
                                             technology, it delivers tangible
                                             benefits for your organization and the communities you serve.
                                         </p>
                                     </div>
-                                    <div class="s_text_block border-0 pt40 pb0 o_colored_level"
+                                    <div class="s_text_block border-0 pt32 pb0 o_colored_level"
                                          data-snippet="s_text_block">
                                         <div class="s_allow_columns container">
                                             <div data-name="Accordion" data-snippet="s_accordion" class="s_accordion">
@@ -353,28 +354,32 @@
                                                          data-name="Accordion Item"
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
-                                                                class="accordion-header fw-bolder align-items-start ps-0 accordion-button fw-bold fs-4 gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header fw-bolder align-items-center ps-0 accordion-button fw-bold fs-4 gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_5"
                                                                 aria-controls="myCollapseTab814744_5">
-                                                            <span class="flex-grow-1">Empower Beneficiaries with Dignity
-                                                            </span>
+                                                            <h5 class="flex-grow-1 text-primary m-0">Empower
+                                                                Beneficiaries
+                                                                with Dignity
+                                                            </h5>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="42"
                                                                  height="42" viewBox="0 0 42 42" fill="none">
-                                                                <mask id="mask0_109_5514" style="mask-type:luminance"
-                                                                      maskUnits="userSpaceOnUse" x="3" y="3" width="36"
-                                                                      height="36">
-                                                                    <path d="M5.25 21C5.25 12.3025 12.3025 5.25 21 5.25C29.6975 5.25 36.75 12.3025 36.75 21C36.75 29.6975 29.6975 36.75 21 36.75C12.3025 36.75 5.25 29.6975 5.25 21Z"
-                                                                          fill="white" stroke="white" stroke-width="4"
+                                                                <mask id="mask0_364_5858" style="mask-type:luminance"
+                                                                      maskUnits="userSpaceOnUse" x="10" y="10"
+                                                                      width="22" height="22">
+                                                                    <path d="M11 21C11 15.4778 15.4778 11 21 11C26.5222 11 31 15.4778 31 21C31 26.5222 26.5222 31 21 31C15.4778 31 11 26.5222 11 21Z"
+                                                                          fill="white" stroke="white" stroke-width="2"
                                                                           stroke-linecap="round"
                                                                           stroke-linejoin="round"/>
-                                                                    <path d="M14 21L19.25 26.25L28 17.5" stroke="black"
-                                                                          stroke-width="4" stroke-linecap="round"
+                                                                    <path d="M16.5557 21L19.889 24.3333L25.4446 18.7778"
+                                                                          stroke="black" stroke-width="2"
+                                                                          stroke-linecap="round"
                                                                           stroke-linejoin="round"/>
                                                                 </mask>
-                                                                <g mask="url(#mask0_109_5514)">
-                                                                    <path d="M42 0H0V42H42V0Z" fill="#B1025D"/>
+                                                                <g mask="url(#mask0_364_5858)">
+                                                                    <path d="M34.3332 7.66666H7.6665V34.3333H34.3332V7.66666Z"
+                                                                          fill="#004C83"/>
                                                                 </g>
                                                             </svg>
                                                         </button>
@@ -382,8 +387,9 @@
                                                              role="region"
                                                              id="myCollapseTab814744_5"
                                                              aria-labelledby="accordion-button814744_1">
-                                                            <div class="accordion-body ">
-                                                                <p class="ps-lg-4">Move beyond handing out goods and
+                                                            <div class="accordion-body py-0">
+                                                                <p class="ps-lg-4 text-primary">Move beyond handing out
+                                                                    goods and
                                                                     give beneficiaries
                                                                     the freedom to choose what they truly need.
                                                                 </p>
@@ -395,29 +401,31 @@
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
 
-                                                                class="accordion-header fw-bolder align-items-start ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header fw-bolder align-items-center ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_2"
                                                                 aria-controls="myCollapseTab814744_2">
-                                                            <span class="flex-grow-1">
+                                                            <h5 class="flex-grow-1 text-primary m-0">
                                                                 Boost Local Economies
-                                                            </span>
+                                                            </h5>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="42"
                                                                  height="42" viewBox="0 0 42 42" fill="none">
-                                                                <mask id="mask0_109_5514" style="mask-type:luminance"
-                                                                      maskUnits="userSpaceOnUse" x="3" y="3" width="36"
-                                                                      height="36">
-                                                                    <path d="M5.25 21C5.25 12.3025 12.3025 5.25 21 5.25C29.6975 5.25 36.75 12.3025 36.75 21C36.75 29.6975 29.6975 36.75 21 36.75C12.3025 36.75 5.25 29.6975 5.25 21Z"
-                                                                          fill="white" stroke="white" stroke-width="4"
+                                                                <mask id="mask0_364_5858" style="mask-type:luminance"
+                                                                      maskUnits="userSpaceOnUse" x="10" y="10"
+                                                                      width="22" height="22">
+                                                                    <path d="M11 21C11 15.4778 15.4778 11 21 11C26.5222 11 31 15.4778 31 21C31 26.5222 26.5222 31 21 31C15.4778 31 11 26.5222 11 21Z"
+                                                                          fill="white" stroke="white" stroke-width="2"
                                                                           stroke-linecap="round"
                                                                           stroke-linejoin="round"/>
-                                                                    <path d="M14 21L19.25 26.25L28 17.5" stroke="black"
-                                                                          stroke-width="4" stroke-linecap="round"
+                                                                    <path d="M16.5557 21L19.889 24.3333L25.4446 18.7778"
+                                                                          stroke="black" stroke-width="2"
+                                                                          stroke-linecap="round"
                                                                           stroke-linejoin="round"/>
                                                                 </mask>
-                                                                <g mask="url(#mask0_109_5514)">
-                                                                    <path d="M42 0H0V42H42V0Z" fill="#B1025D"/>
+                                                                <g mask="url(#mask0_364_5858)">
+                                                                    <path d="M34.3332 7.66666H7.6665V34.3333H34.3332V7.66666Z"
+                                                                          fill="#004C83"/>
                                                                 </g>
                                                             </svg>
                                                         </button>
@@ -425,8 +433,9 @@
                                                              role="region"
                                                              id="myCollapseTab814744_2"
                                                              aria-labelledby="accordion-button814744_1">
-                                                            <div class="accordion-body">
-                                                                <p class=" ps-lg-4">By partnering with local merchants,
+                                                            <div class="accordion-body py-0">
+                                                                <p class=" ps-lg-4 text-primary">By partnering with
+                                                                    local merchants,
                                                                     you ensure that
                                                                     aid money directly supports and strengthens the
                                                                     communities you serve.
@@ -439,28 +448,32 @@
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
 
-                                                                class="accordion-header fw-bolder align-items-start ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header fw-bolder align-items-center ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_3"
                                                                 aria-controls="myCollapseTab814744_3">
-                                                            <span class="flex-grow-1">Reduce Administrative Overhead
-                                                            </span>
+                                                            <h5 class="flex-grow-1 text-primary m-0">Reduce
+                                                                Administrative
+                                                                Overhead
+                                                            </h5>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="42"
                                                                  height="42" viewBox="0 0 42 42" fill="none">
-                                                                <mask id="mask0_109_5514" style="mask-type:luminance"
-                                                                      maskUnits="userSpaceOnUse" x="3" y="3" width="36"
-                                                                      height="36">
-                                                                    <path d="M5.25 21C5.25 12.3025 12.3025 5.25 21 5.25C29.6975 5.25 36.75 12.3025 36.75 21C36.75 29.6975 29.6975 36.75 21 36.75C12.3025 36.75 5.25 29.6975 5.25 21Z"
-                                                                          fill="white" stroke="white" stroke-width="4"
+                                                                <mask id="mask0_364_5858" style="mask-type:luminance"
+                                                                      maskUnits="userSpaceOnUse" x="10" y="10"
+                                                                      width="22" height="22">
+                                                                    <path d="M11 21C11 15.4778 15.4778 11 21 11C26.5222 11 31 15.4778 31 21C31 26.5222 26.5222 31 21 31C15.4778 31 11 26.5222 11 21Z"
+                                                                          fill="white" stroke="white" stroke-width="2"
                                                                           stroke-linecap="round"
                                                                           stroke-linejoin="round"/>
-                                                                    <path d="M14 21L19.25 26.25L28 17.5" stroke="black"
-                                                                          stroke-width="4" stroke-linecap="round"
+                                                                    <path d="M16.5557 21L19.889 24.3333L25.4446 18.7778"
+                                                                          stroke="black" stroke-width="2"
+                                                                          stroke-linecap="round"
                                                                           stroke-linejoin="round"/>
                                                                 </mask>
-                                                                <g mask="url(#mask0_109_5514)">
-                                                                    <path d="M42 0H0V42H42V0Z" fill="#B1025D"/>
+                                                                <g mask="url(#mask0_364_5858)">
+                                                                    <path d="M34.3332 7.66666H7.6665V34.3333H34.3332V7.66666Z"
+                                                                          fill="#004C83"/>
                                                                 </g>
                                                             </svg>
                                                         </button>
@@ -468,8 +481,9 @@
                                                              role="region"
                                                              id="myCollapseTab814744_3"
                                                              aria-labelledby="accordion-button814744_1">
-                                                            <div class="accordion-body ">
-                                                                <p class="ps-lg-4">Eliminate the logistical challenges
+                                                            <div class="accordion-body py-0 ">
+                                                                <p class="ps-lg-4 text-primary">Eliminate the logistical
+                                                                    challenges
                                                                     and costs
                                                                     associated with procuring, storing, and distributing
                                                                     physical goods or cash.
@@ -482,28 +496,31 @@
                                                          style="--accordion-border-radius: 0px;">
                                                         <button type="button"
 
-                                                                class="accordion-header fw-bolder align-items-start ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
+                                                                class="accordion-header fw-bolder align-items-center ps-0 fw-bold fs-4 accordion-button gap-2 bg-transparent h6-fs fw-bold text-decoration-none text-reset transition-none justify-content-end flex-row-reverse o_icons_position_reversed"
                                                                 data-bs-toggle="collapse" aria-expanded="true"
                                                                 id="accordion-button814744_1"
                                                                 data-bs-target="#myCollapseTab814744_4"
                                                                 aria-controls="myCollapseTab814744_4">
-                                                            <span class="flex-grow-1">Scalable for Any Operation
-                                                            </span>
+                                                            <h5 class="flex-grow-1 text-primary m-0">Scalable for Any
+                                                                Operation
+                                                            </h5>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="42"
                                                                  height="42" viewBox="0 0 42 42" fill="none">
-                                                                <mask id="mask0_109_5514" style="mask-type:luminance"
-                                                                      maskUnits="userSpaceOnUse" x="3" y="3" width="36"
-                                                                      height="36">
-                                                                    <path d="M5.25 21C5.25 12.3025 12.3025 5.25 21 5.25C29.6975 5.25 36.75 12.3025 36.75 21C36.75 29.6975 29.6975 36.75 21 36.75C12.3025 36.75 5.25 29.6975 5.25 21Z"
-                                                                          fill="white" stroke="white" stroke-width="4"
+                                                                <mask id="mask0_364_5858" style="mask-type:luminance"
+                                                                      maskUnits="userSpaceOnUse" x="10" y="10"
+                                                                      width="22" height="22">
+                                                                    <path d="M11 21C11 15.4778 15.4778 11 21 11C26.5222 11 31 15.4778 31 21C31 26.5222 26.5222 31 21 31C15.4778 31 11 26.5222 11 21Z"
+                                                                          fill="white" stroke="white" stroke-width="2"
                                                                           stroke-linecap="round"
                                                                           stroke-linejoin="round"/>
-                                                                    <path d="M14 21L19.25 26.25L28 17.5" stroke="black"
-                                                                          stroke-width="4" stroke-linecap="round"
+                                                                    <path d="M16.5557 21L19.889 24.3333L25.4446 18.7778"
+                                                                          stroke="black" stroke-width="2"
+                                                                          stroke-linecap="round"
                                                                           stroke-linejoin="round"/>
                                                                 </mask>
-                                                                <g mask="url(#mask0_109_5514)">
-                                                                    <path d="M42 0H0V42H42V0Z" fill="#B1025D"/>
+                                                                <g mask="url(#mask0_364_5858)">
+                                                                    <path d="M34.3332 7.66666H7.6665V34.3333H34.3332V7.66666Z"
+                                                                          fill="#004C83"/>
                                                                 </g>
                                                             </svg>
                                                         </button>
@@ -511,8 +528,9 @@
                                                              role="region"
                                                              id="myCollapseTab814744_4"
                                                              aria-labelledby="accordion-button814744_1">
-                                                            <div class="accordion-body ">
-                                                                <p class="ps-lg-4">Whether you support ten beneficiaries
+                                                            <div class="accordion-body py-0 ">
+                                                                <p class="ps-lg-4 text-primary ">Whether you support ten
+                                                                    beneficiaries
                                                                     or ten
                                                                     thousand, our platform is built to scale with the
                                                                     size and complexity of your mission.
@@ -528,7 +546,7 @@
                                 </div>
                                 <div class="col-lg-6  hero_section pb-5 pb-lg-0   order-1 order-lg-2 ">
                                     <img class="w-100" loading="lazy"
-                                         src="/theme_redeem/static/src/images/home/image.webp"
+                                         src="/theme_redeem/static/src/images/home/img.webp"
                                          alt="automated management"/>
                                 </div>
                             </div>

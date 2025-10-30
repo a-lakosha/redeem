@@ -9,7 +9,7 @@ Redeem Digital Wallet Theme
     """,
     'author': 'Pearl Pixels',
     'website': 'https://www.pearlpixels.com',
-    'depends': ['theme_common'],
+    'depends': ['theme_common', 'website'],
     'images': [
         'static/description/redeem_description.jpg',
         'static/description/redeem_screenshot.jpg',
