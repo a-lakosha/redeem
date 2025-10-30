@@ -11,12 +11,18 @@ publicWidget.registry.verticalCarousel = publicWidget.Widget.extend({
         this.isAnimating = false;
         this.autoPlayTimer = null;
         this.autoPlayDelay = 4000; // 4 seconds
+        this.isCarouselEnabled = true;
+        this.mediumBreakpoint = 999; // Screen width breakpoint
 
         this._refreshItems();
+        this._checkResponsive();
         this._bindEvents();
         this._bindEditorEvents();
 
-        if (this.carouselItems.length > 0) {
+        // Bind window resize to check responsive behavior
+        $(window).on('resize', this._onResize.bind(this));
+
+        if (this.carouselItems.length > 0 && this.isCarouselEnabled) {
             this._startAutoPlay();
             this._updateNavigation();
             // Initialize the first slide with proper states
@@ -24,6 +30,45 @@ publicWidget.registry.verticalCarousel = publicWidget.Widget.extend({
         }
 
         return Promise.resolve();
+    },
+
+    _checkResponsive: function () {
+        const windowWidth = $(window).width();
+        const shouldEnableCarousel = windowWidth >= this.mediumBreakpoint;
+
+        if (shouldEnableCarousel !== this.isCarouselEnabled) {
+            this.isCarouselEnabled = shouldEnableCarousel;
+
+            if (this.isCarouselEnabled) {
+                this._enableCarousel();
+            } else {
+                this._disableCarousel();
+            }
+        }
+    },
+
+    _enableCarousel: function () {
+        // Re-enable carousel functionality
+        if (this.carouselItems.length > 0) {
+            this._showSlide(this.currentIndex);
+            this._startAutoPlay();
+            this._updateNavigation();
+        }
+    },
+
+    _disableCarousel: function () {
+        // Disable carousel functionality and show as list
+        this._clearAutoPlay();
+
+        // Remove all position classes to show all items
+        this.carouselItems.removeClass('active pos-1 pos-2 pos-3 pos-minus-1 pos-minus-2 pos-minus-3');
+
+        // Add a class to indicate list mode
+        this.carouselItems.addClass('list-mode');
+    },
+
+    _onResize: function () {
+        this._checkResponsive();
     },
 
     _bindEvents: function () {
@@ -94,14 +139,14 @@ publicWidget.registry.verticalCarousel = publicWidget.Widget.extend({
     },
 
     _goToPrevious: function () {
-        if (this.isAnimating) return;
+        if (this.isAnimating || !this.isCarouselEnabled) return;
 
         this.currentIndex = this.currentIndex === 0 ? this.carouselItems.length - 1 : this.currentIndex - 1;
         this._showSlide(this.currentIndex);
     },
 
     _goToNext: function () {
-        if (this.isAnimating) return;
+        if (this.isAnimating || !this.isCarouselEnabled) return;
 
         this.currentIndex = this.currentIndex === this.carouselItems.length - 1 ? 0 : this.currentIndex + 1;
         this._showSlide(this.currentIndex);
@@ -193,6 +238,7 @@ publicWidget.registry.verticalCarousel = publicWidget.Widget.extend({
     destroy: function () {
         this._clearAutoPlay();
         $(document).off('keydown', this._handleKeyboard.bind(this));
+        $(window).off('resize', this._onResize.bind(this));
         this._super.apply(this, arguments);
     },
 

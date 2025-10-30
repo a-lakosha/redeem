@@ -55,8 +55,7 @@
                                         </div>
 
                                         <!-- Main Heading -->
-                                        <h1 style="font-size: 56px;"
-                                            class="display-3 fw-bold mb-4 text-capitalize text-primary">
+                                        <h1 class="display-3 fw-bold mb-4 text-capitalize text-primary">
                                             The Digital Wallet That Delivers Hope
                                         </h1>
 
@@ -69,7 +68,7 @@
                                         </p>
 
                                         <!-- CTA Buttons -->
-                                        <div class="d-flex flex-wrap gap-3 align-items-center">
+                                        <div class="d-flex gap-3 flex-lg-row flex-column">
                                             <a href="#application"
                                                class="btn btn-primary text-uppercase fw-medium">
                                                 Get Started
@@ -95,10 +94,10 @@
                             <div class="row  py-4 my-5">
                                 <!-- Title -->
                                 <div class="title mb-5  pb-lg-5 pb-5">
-                                    <h4 style="font-size: 32px;" class="fw-bolder mb-3 text-primary ">A Seamless
+                                    <h3 class="fw-bolder mb-3 text-primary ">A Seamless
                                         Ecosystem for Digital Funds
                                         Delivery
-                                    </h4>
+                                    </h3>
                                     <p style="max-width: 826px;" class="text-muted mx-auto text-primary mb-5">
                                         Manage, distribute, and track funds with our integrated platform designed for
                                         organizations, beneficiaries, and merchants.
@@ -111,12 +110,12 @@
                                              class="position-absolute w-100  top-0 end-0 start-0 z-index-0"
                                              src="/theme_redeem/static/src/images/home/circles.svg" alt=""/>
                                         <!-- Center Phone -->
-                                        <div class="position-relative    background_mobile rounded-circle text-center m-auto pt-5"
+                                        <div class="position-relative background_mobile rounded-circle text-center m-auto pt-5"
                                              style="background-color: #B1025D; min-height: 500px;max-width:500px">
-                                            <img style="     max-width: 593px;position: absolute;top: 50%;transform: translateY(-50%);left: 0px; "
+                                            <img style="max-width: 593px; position: absolute;top: 50%; transform: translateY(-50%);left: 0px; "
                                                  src="/theme_redeem/static/src/images/home/mobile.webp"
                                                  alt="App"
-                                                 class="img-fluid w-100 mobile_response   "
+                                                 class="img-fluid w-100 mobile_response"
                                             />
                                         </div>
 
@@ -247,12 +246,13 @@
                                      data-snippet="s_vertical_carousel" data-js="VerticalCarousel">
                                     <div class="h-100">
                                         <div class="vertical-carousel">
-                                            <div class="vertical-carousel-item   active" data-step="1"
+                                            <div class="vertical-carousel-item active" data-step="1"
                                                  data-js="VerticalCarouselItem">
-                                                <span class="h5">01
+                                                <span class="h5 text-primary">01
                                                 </span>
-                                                <h5 class="">Register &amp; Get Verified</h5>
-                                                <p class="text-muted">Your organization signs up on the Taqat
+                                                <h5 class="text-primary">Register &amp; Get Verified</h5>
+                                                <p class="text-muted text-primary">Your organization signs up on the
+                                                    Taqat
                                                     platform.
                                                     Our
                                                     team verifies your documents to establish a secure and trusted
@@ -262,9 +262,10 @@
 
                                             <div class="vertical-carousel-item" data-step="2"
                                                  data-js="VerticalCarouselItem">
-                                                <span class="h5">02</span>
-                                                <h5 class="">Onboard Your Beneficiaries</h5>
-                                                <p class="text-muted">Easily upload a list of your beneficiaries
+                                                <span class="h5 text-primary">02</span>
+                                                <h5 class="text-primary">Onboard Your Beneficiaries</h5>
+                                                <p class="text-muted text-primary">Easily upload a list of your
+                                                    beneficiaries
                                                     and
                                                     define
                                                     the balance to be allocated to each person through your dedicated
@@ -274,9 +275,12 @@
 
                                             <div class="vertical-carousel-item" data-step="3"
                                                  data-js="VerticalCarouselItem">
-                                                <div class="h5">03</div>
-                                                <h5 class="step-title">Monitor, Track, Analyze &amp; Report</h5>
-                                                <p class="text-muted">Log in to your portal at any time to see a
+                                                <div class="h5 text-primary">03</div>
+                                                <h5 class="step-title text-primary">Monitor, Track, Analyze &amp;
+                                                    Report
+                                                </h5>
+                                                <p class="text-muted text-primary">Log in to your portal at any time to
+                                                    see a
                                                     complete
                                                     overview of all transactions. Monitor your program's impact with
                                                     powerful,
@@ -286,9 +290,9 @@
 
                                             <div class="vertical-carousel-item" data-step="4"
                                                  data-js="VerticalCarouselItem">
-                                                <span class="h5">04</span>
-                                                <h5 class="">Automated Fund Management</h5>
-                                                <p class="text-muted">Our system automatically manages fund
+                                                <span class="h5 text-primary">04</span>
+                                                <h5 class="text-primary">Automated Fund Management</h5>
+                                                <p class="text-muted text-primary">Our system automatically manages fund
                                                     distribution
                                                     and
                                                     ensures secure transactions while providing complete transparency
@@ -300,9 +304,10 @@
 
                                             <div class="vertical-carousel-item" data-step="5"
                                                  data-js="VerticalCarouselItem">
-                                                <span class="h5">05</span>
-                                                <h5 class="">24/7 Support &amp; Security</h5>
-                                                <p class="text-muted">We provide round-the-clock support through
+                                                <span class="h5 text-primary">05</span>
+                                                <h5 class="text-primary">24/7 Support &amp; Security</h5>
+                                                <p class="text-muted text-primary">We provide round-the-clock support
+                                                    through
                                                     multiple
                                                     channels and ensure your data is protected by advanced encryption
                                                     and
@@ -335,10 +340,11 @@
                     <section id="automated_management">
                         <div class="container py-5">
                             <div class="row">
-                                <div class="col-lg-6   order-2 order-lg-1  ">
+                                <div class="col-lg-6 order-2 order-lg-1  ">
                                     <div class="content ">
                                         <h3 class="text-primary pb-3 fs-4 fw-bold">Automated Fund Management</h3>
-                                        <p class="text-primary mb-0 " style="max-width: 545px;">The Redeem app provides
+                                        <p class="text-primary mb-0 " style="max-width: 545px;">The Khair Gate app
+                                            provides
                                             more
                                             than just
                                             technology, it delivers tangible
@@ -561,7 +567,7 @@
                                     <p style="max-width: 815px;" class=" m-auto pb-lg-5 mb-5 text-primary">Join the
                                         growing
                                         number of
-                                        organizations using Redeem
+                                        organizations using Khair Gate
                                         App to deliver aid with more efficiency, transparency, and impact than ever
                                         before. Let's build a better future together.
                                     </p>

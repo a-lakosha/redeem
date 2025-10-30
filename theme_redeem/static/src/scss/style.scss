@@ -131,79 +131,48 @@
       background: red !important;
       max-width: 100% !important;
     }
+
+    // Hide carousel navigation buttons on small screens
     .carousel-nav {
-      top: auto !important;
-      bottom: 7px !important;
-      transform: translateX(-50%);
-      left: 38%;
-      z-index: 1000;
+      display: none !important;
     }
-    .js_vertical_carousel .carousel-nav {
-      position: absolute;
-      transform: none;
-      flex-direction: row;
-      justify-content: center;
-      margin-top: 2rem;
-      right: auto;
-    }
-  }
 
-
-  // Tablet responsive styles
-  @media (max-width: 999px) {
-
-    .carousel-nav {
-      position: absolute;
-      transform: none;
-      flex-direction: row;
-      justify-content: center;
-      margin-top: 2rem;
-      right: auto;
-    }
-  }
-
-  // Mobile responsive styles
-  @media (max-width: 576px) {
-
+    // Reset carousel to display as a normal list
     .vertical-carousel {
-      min-height: 700px;
-      padding: 1.5rem 0;
+      min-height: auto;
+      overflow: visible;
     }
 
     .vertical-carousel-item {
+      position: relative !important;
+      opacity: 1 !important;
+      transform: none !important;
+      pointer-events: auto !important;
+      z-index: auto !important;
+      margin-bottom: 2rem;
+
+      // Reset all position-based classes
+      &.active,
+      &.pos-1,
+      &.pos-minus-1,
+      &.pos-2,
+      &.pos-minus-2,
+      &.pos-3,
+      &.pos-minus-3,
+      &.list-mode {
+        position: relative !important;
+        opacity: 1 !important;
+        transform: none !important;
+        pointer-events: auto !important;
+        z-index: auto !important;
+      }
+    }
+  }
+
+  // Mobile responsive styles - same as tablet, display as list
+  @media (max-width: 576px) {
+    .vertical-carousel-item {
       padding: 0.75rem 1rem;
-
-      // Only 3 items visible on mobile - closer spacing
-      &.pos-minus-1 {
-        opacity: 0.3;
-        transform: translateY(-200px);
-      }
-
-      &.pos-1 {
-        opacity: 0.3;
-        transform: translateY(200px);
-      }
-
-      // Hidden items
-      &.pos-minus-2 {
-        opacity: 0;
-        transform: translateY(-300px);
-      }
-
-      &.pos-2 {
-        opacity: 0;
-        transform: translateY(300px);
-      }
-
-      &.pos-minus-3 {
-        opacity: 0;
-        transform: translateY(-400px);
-      }
-
-      &.pos-3 {
-        opacity: 0;
-        transform: translateY(400px);
-      }
     }
   }
 }
@@ -283,14 +252,12 @@ html {
 }
 
 .mobile_response {
+  height: 700px;
+  object-fit: cover;
   animation: upDown 2s infinite ease-in-out;
 }
 
 @media (max-width: 1200px) {
-  .mobile_response {
-    min-height: auto !important;
-    height: auto !important;
-  }
 
   .box_feature {
     margin-top: 30px;
@@ -306,7 +273,7 @@ html {
     max-width: 347px !important;
   }
   .mobile_response {
-    max-height: 100%;
+    max-height: 490px;
     width: 100%;
   }
 }
@@ -338,5 +305,13 @@ html {
     p {
       max-width: 100% !important;
     }
+  }
+}
+
+.display-3 {
+  font-size: 56px;
+  @media (max-width: 767px) {
+    font-size: 32px !important;
+
   }
 }
